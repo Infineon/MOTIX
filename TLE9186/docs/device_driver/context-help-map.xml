@@ -1,0 +1,49 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<map>
+   <appContext helpID="indexpage" path="TLE9186_Device_Driver_indexpage.html"/>
+   <appContext helpID="page_setting_up"
+               path="TLE9186_Device_Driver_page_setting_up.html"/>
+   <appContext helpID="page_detail" path="TLE9186_Device_Driver_page_detail.html"/>
+   <appContext helpID="modules" path="TLE9186_Device_Driver_modules.html"/>
+   <appContext helpID="group__shadow_regs"
+               path="TLE9186_Device_Driver_group__shadow_regs.html"/>
+   <appContext helpID="struct_t_l_e9186___type"
+               path="TLE9186_Device_Driver_struct_t_l_e9186___type.html"/>
+   <appContext helpID="group__defines"
+               path="TLE9186_Device_Driver_group__defines.html"/>
+   <appContext helpID="group__addresses"
+               path="TLE9186_Device_Driver_group__addresses.html"/>
+   <appContext helpID="group__masks" path="TLE9186_Device_Driver_group__masks.html"/>
+   <appContext helpID="group__init_values"
+               path="TLE9186_Device_Driver_group__init_values.html"/>
+   <appContext helpID="group__types" path="TLE9186_Device_Driver_group__types.html"/>
+   <appContext helpID="group__func_layer"
+               path="TLE9186_Device_Driver_group__func_layer.html"/>
+   <appContext helpID="group__reg_layer"
+               path="TLE9186_Device_Driver_group__reg_layer.html"/>
+   <appContext helpID="group__serv_layer"
+               path="TLE9186_Device_Driver_group__serv_layer.html"/>
+   <appContext helpID="group__spi__com"
+               path="TLE9186_Device_Driver_group__spi__com.html"/>
+   <appContext helpID="group__frame_gen"
+               path="TLE9186_Device_Driver_group__frame_gen.html"/>
+   <appContext helpID="group__crc_calc"
+               path="TLE9186_Device_Driver_group__crc_calc.html"/>
+   <appContext helpID="group__appl_layer"
+               path="TLE9186_Device_Driver_group__appl_layer.html"/>
+   <appContext helpID="group__appl__layer__cyclic"
+               path="TLE9186_Device_Driver_group__appl__layer__cyclic.html"/>
+   <appContext helpID="group__appl__layer__init"
+               path="TLE9186_Device_Driver_group__appl__layer__init.html"/>
+   <appContext helpID="group__hal" path="TLE9186_Device_Driver_group__hal.html"/>
+   <appContext helpID="group__spi__hal"
+               path="TLE9186_Device_Driver_group__spi__hal.html"/>
+   <appContext helpID="group__gpio__hal"
+               path="TLE9186_Device_Driver_group__gpio__hal.html"/>
+   <appContext helpID="annotated" path="TLE9186_Device_Driver_annotated.html"/>
+   <appContext helpID="structs___t_l_e9186__device_driver"
+               path="TLE9186_Device_Driver_structs___t_l_e9186__device_driver.html"/>
+   <appContext helpID="struct_t_l_e9186___type"
+               path="TLE9186_Device_Driver_struct_t_l_e9186___type.html"/>
+   <appContext helpID="trademarks" path="trademarks.html"/>
+</map>

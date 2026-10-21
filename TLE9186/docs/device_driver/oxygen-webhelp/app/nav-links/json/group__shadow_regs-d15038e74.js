@@ -1,0 +1,1 @@
+oxy_webhelp_navlinks = {"group__shadow_regs-d15038e74":{"topics":[{"title":"TLE9186_Type","shortdesc":"<p class=\"shortdesc\">TLE9186 Register Shadow. <\/p>","href":"TLE9186_Device_Driver_struct_t_l_e9186___type.html","attributes":{"data-id":"struct_t_l_e9186___type"},"menu":{"hasChildren":false},"tocID":"struct_t_l_e9186___type-d15038e85","topics":[]}]}};

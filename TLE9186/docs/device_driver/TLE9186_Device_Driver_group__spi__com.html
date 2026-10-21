@@ -1,0 +1,174 @@
+<!DOCTYPE html><html xmlns="http://www.w3.org/1999/xhtml" xml:lang="en-us" lang="en-us" data-whc_version="25.0">
+    <head><link rel="shortcut icon" href="oxygen-webhelp\template\image/favicon.ico"/><link rel="icon" href="oxygen-webhelp\template\image/favicon.ico"/><meta http-equiv="Content-Type" content="text/html; charset=UTF-8"/><meta name="viewport" content="width=device-width, initial-scale=1.0"/><meta http-equiv="X-UA-Compatible" content="IE=edge"/><meta name="copyright" content="(C) Copyright 2024"/><meta name="generator" content="DITA-OT"/><meta name="description" content="The generated frames are transmitted via SPI to the device."/>        
+      <title>SPI Communication</title><!--  Generated with Oxygen version 25.0, build number 2022101006.  --><meta name="wh-path2root" content=""/><meta name="wh-toc-id" content="group__spi__com-d15038e187"/><meta name="wh-source-relpath" content="TLE9186_Device_Driver_group__spi__com.dita"/><meta name="wh-out-relpath" content="TLE9186_Device_Driver_group__spi__com.html"/>
+
+    <link rel="stylesheet" type="text/css" href="./oxygen-webhelp/app/commons.css?buildId=2022101006"/>
+    <link rel="stylesheet" type="text/css" href="./oxygen-webhelp/app/topic.css?buildId=2022101006"/>
+
+    <script>
+        var oxy_webhelp_navlinks = {};
+    </script>
+    <script src="./oxygen-webhelp/app/options/properties.js?buildId=20241203114504"></script>
+    <script src="./oxygen-webhelp/app/localization/strings.js?buildId=2022101006"></script>
+    <script src="./oxygen-webhelp/app/search/index/keywords.js?buildId=20241203114504"></script>
+    <script defer="defer" src="./oxygen-webhelp/app/commons.js?buildId=2022101006"></script>
+    <script defer="defer" src="./oxygen-webhelp/app/topic.js?buildId=2022101006"></script>
+<link rel="stylesheet" type="text/css" href="oxygen-webhelp/template/css/light.css?buildId=2022101006"/><link rel="stylesheet" type="text/css" href="oxygen-webhelp/template/css/infineon.css?buildId=2022101006"/><link rel="stylesheet" type="text/css" href="oxygen-webhelp/template/css/prism.css?buildId=2022101006"/>
+    <script type="text/javascript" src="./oxygen-webhelp/template/js/prism.js"></script>
+    <script src="https://polyfill.io/v3/polyfill.min.js?features=es6"></script>
+    <script id="MathJax-script" async="async" src="https://cdn.jsdelivr.net/npm/mathjax@3/es5/tex-mml-chtml.js"></script>
+</head>
+
+    <body id="group__spi__com" class="wh_topic_page apipage apipage--group">
+        <a href="#wh_topic_body" class="sr-only sr-only-focusable">
+            Jump to main content
+        </a>
+        
+        
+        
+        
+        <header class="navbar navbar-default wh_header">
+    <div class="container-fluid">
+        <div class="wh_header_flex_container navbar-nav navbar-expand-md navbar-dark">
+            <div class="wh_logo_and_publication_title_container">
+                <div class="wh_logo_and_publication_title">
+                    
+                    <a href="https://www.infineon.com" class=" wh_logo d-none d-sm-block "><img src="oxygen-webhelp\template\image/infineon-logo.png" alt="Infineon Technologies"/></a>
+                    <div class=" wh_publication_title "><a href="index.html"><span class="title">Getting started with the MOTIX™ TLE9186QV device driver</span></a></div>
+                    
+                </div>
+                
+                
+            </div>
+
+            <div class="wh_top_menu_and_indexterms_link collapse navbar-collapse" id="wh_top_menu_and_indexterms_link">
+                
+                
+                
+                
+            </div>
+        </div>
+    </div>
+</header>
+        <div class="workflow-status" data-status="not-draft">
+    not-draft
+</div>
+        
+         
+        
+        <div class=" wh_search_input navbar-form wh_topic_page_search search " role="form">
+            
+            
+            
+            <form id="searchForm" method="get" role="search" action="search.html"><div><input type="search" placeholder="Search " class="wh_search_textfield" id="textToSearch" name="searchQuery" aria-label="Search query" required="required"/><button type="submit" class="wh_search_button" aria-label="Search"><span class="search_input_text">Search</span></button></div></form>
+            
+            
+            
+        </div>
+        
+        <div class="container-fluid" id="wh_topic_container">
+            <div class="row">
+
+                <nav class="wh_tools d-print-none navbar-expand-md" aria-label="Tools">
+                    
+                    <div data-tooltip-position="bottom" class=" wh_breadcrumb "><ol class="d-print-none"><li><span class="home"><a href="index.html"><span>Home</span></a></span></li><li><div class="topicref newpage" data-id="modules"><div class="title"><a href="TLE9186_Device_Driver_modules.html">Modules</a></div></div></li><li><div class="topicref" data-id="group__serv_layer"><div class="title"><a href="TLE9186_Device_Driver_group__serv_layer.html">Service Layer</a><div class="wh-tooltip"><p class="shortdesc"> The Service Layer is in charge of generating correct MOSI frames based on the information received from the <span class="ph apipseudolink">Register Layer</span>. While doing so it calculates the CRC checksum.      </p></div></div></div></li><li class="active"><div class="topicref" data-id="group__spi__com"><div class="title"><a href="TLE9186_Device_Driver_group__spi__com.html">SPI Communication</a><div class="wh-tooltip"><p class="shortdesc"> The generated frames are transmitted via SPI to the device.      </p></div></div></div></li></ol></div>
+                    
+                    
+                    
+                    <div class="wh_right_tools">
+                        <button class="wh_hide_highlight" aria-label="Toggle search highlights" title="Toggle search highlights"></button>
+                        <button class="webhelp_expand_collapse_sections" data-next-state="collapsed" aria-label="Collapse sections" title="Collapse sections"></button>
+                        
+                        
+                        
+                        
+                        <div class=" wh_print_link print d-none d-md-inline-block "><button onClick="window.print()" title="Print this page" aria-label="Print this page"></button></div>
+                        
+                        <button type="button" id="wh_toc_button" class="custom-toggler navbar-toggler collapsed wh_toggle_button navbar-light" aria-expanded="false" aria-label="Toggle publishing table of content" aria-controls="wh_publication_toc">
+                            <span class="navbar-toggler-icon"></span>
+                        </button>
+                    </div>
+                    
+                </nav>
+            </div>
+            
+            
+            
+            
+            <div class="wh_content_area">
+                <div class="row">
+                    
+                        <nav id="wh_publication_toc" class="col-lg-3 col-md-3 col-sm-12 d-md-block d-none d-print-none" aria-label="Table of Contents Container">
+                            <div id="wh_publication_toc_content">
+		                        
+                            	<div class=" wh_publication_toc " data-tooltip-position="right"><span class="expand-button-action-labels"><span id="button-expand-action" role="button" aria-label="Expand"></span><span id="button-collapse-action" role="button" aria-label="Collapse"></span><span id="button-pending-action" role="button" aria-label="Pending"></span></span><ul role="tree" aria-label="Table of Contents"><li role="treeitem"><div data-tocid="indexpage-d15038e42" class="topicref Preface" data-id="indexpage" data-state="leaf"><span role="button" class="wh-expand-btn"></span><div class="title"><a href="TLE9186_Device_Driver_indexpage.html" id="indexpage-d15038e42-link">About this document</a></div></div></li><li role="treeitem"><div data-tocid="page_setting_up-d15038e50" class="topicref newpage" data-id="page_setting_up" data-state="leaf"><span role="button" class="wh-expand-btn"></span><div class="title"><a href="TLE9186_Device_Driver_page_setting_up.html" id="page_setting_up-d15038e50-link">Setting up the MOTIX™ TLE9186QV device driver</a></div></div></li><li role="treeitem"><div data-tocid="page_detail-d15038e58" class="topicref newpage" data-id="page_detail" data-state="leaf"><span role="button" class="wh-expand-btn"></span><div class="title"><a href="TLE9186_Device_Driver_page_detail.html" id="page_detail-d15038e58-link">In detail: MOTIX™ TLE9186QV device driver</a></div></div></li><li role="treeitem" aria-expanded="true"><div data-tocid="modules-d15038e66" class="topicref newpage" data-id="modules" data-state="expanded"><span role="button" tabindex="0" aria-labelledby="button-collapse-action modules-d15038e66-link" class="wh-expand-btn"></span><div class="title"><a href="TLE9186_Device_Driver_modules.html" id="modules-d15038e66-link">Modules</a></div></div><ul role="group" class="navbar-nav nav-list"><li role="treeitem" aria-expanded="false"><div data-tocid="group__shadow_regs-d15038e74" class="topicref" data-id="group__shadow_regs" data-state="not-ready"><span role="button" tabindex="0" aria-labelledby="button-expand-action group__shadow_regs-d15038e74-link" class="wh-expand-btn"></span><div class="title"><a href="TLE9186_Device_Driver_group__shadow_regs.html" id="group__shadow_regs-d15038e74-link">Shadow Registers</a><div class="wh-tooltip"><p class="shortdesc"> The Shadow Register holds a copy of the internal registers of the TLE9186.      </p></div></div></div></li><li role="treeitem" aria-expanded="false"><div data-tocid="group__defines-d15038e96" class="topicref" data-id="group__defines" data-state="not-ready"><span role="button" tabindex="0" aria-labelledby="button-expand-action group__defines-d15038e96-link" class="wh-expand-btn"></span><div class="title"><a href="TLE9186_Device_Driver_group__defines.html" id="group__defines-d15038e96-link">Register Information</a><div class="wh-tooltip"><p class="shortdesc"> The addresses, masks and bit-positions are necessary to access each an every bit of the TLE9186 device.      </p></div></div></div></li><li role="treeitem"><div data-tocid="group__init_values-d15038e129" class="topicref" data-id="group__init_values" data-state="leaf"><span role="button" class="wh-expand-btn"></span><div class="title"><a href="TLE9186_Device_Driver_group__init_values.html" id="group__init_values-d15038e129-link">Initialization Values</a><div class="wh-tooltip"><p class="shortdesc"> The initialization values are needed for the initialization of the register shadow and are based on the reset value of each register.      </p></div></div></div></li><li role="treeitem"><div data-tocid="group__types-d15038e140" class="topicref" data-id="group__types" data-state="leaf"><span role="button" class="wh-expand-btn"></span><div class="title"><a href="TLE9186_Device_Driver_group__types.html" id="group__types-d15038e140-link">Types</a><div class="wh-tooltip"><p class="shortdesc"> The device driver uses AUTOSAR datatypes which need to be defined. This file offers the possibility of either using the platform datatypes or custom data types.      </p></div></div></div></li><li role="treeitem"><div data-tocid="group__func_layer-d15038e151" class="topicref" data-id="group__func_layer" data-state="leaf"><span role="button" class="wh-expand-btn"></span><div class="title"><a href="TLE9186_Device_Driver_group__func_layer.html" id="group__func_layer-d15038e151-link">Function Layer</a><div class="wh-tooltip"><p class="shortdesc"> The Function Layer offers API function for either writing to a register or reading from a register.      </p></div></div></div></li><li role="treeitem"><div data-tocid="group__reg_layer-d15038e162" class="topicref" data-id="group__reg_layer" data-state="leaf"><span role="button" class="wh-expand-btn"></span><div class="title"><a href="TLE9186_Device_Driver_group__reg_layer.html" id="group__reg_layer-d15038e162-link">Register Layer</a><div class="wh-tooltip"><p class="shortdesc"> The Register Layer offers API function for either writing to a register or reading from a register.      </p></div></div></div></li><li role="treeitem" aria-expanded="true"><div data-tocid="group__serv_layer-d15038e173" class="topicref" data-id="group__serv_layer" data-state="expanded"><span role="button" tabindex="0" aria-labelledby="button-collapse-action group__serv_layer-d15038e173-link" class="wh-expand-btn"></span><div class="title"><a href="TLE9186_Device_Driver_group__serv_layer.html" id="group__serv_layer-d15038e173-link">Service Layer</a><div class="wh-tooltip"><p class="shortdesc"> The Service Layer is in charge of generating correct MOSI frames based on the information received from the <span class="ph apipseudolink">Register Layer</span>. While doing so it calculates the CRC checksum.      </p></div></div></div><ul role="group" class="navbar-nav nav-list"><li role="treeitem" class="active"><div data-tocid="group__spi__com-d15038e187" class="topicref" data-id="group__spi__com" data-state="leaf"><span role="button" class="wh-expand-btn"></span><div class="title"><a href="TLE9186_Device_Driver_group__spi__com.html" id="group__spi__com-d15038e187-link">SPI Communication</a><div class="wh-tooltip"><p class="shortdesc"> The generated frames are transmitted via SPI to the device.      </p></div></div></div></li><li role="treeitem"><div data-tocid="group__frame_gen-d15038e198" class="topicref" data-id="group__frame_gen" data-state="leaf"><span role="button" class="wh-expand-btn"></span><div class="title"><a href="TLE9186_Device_Driver_group__frame_gen.html" id="group__frame_gen-d15038e198-link">Frame Generation</a><div class="wh-tooltip"><p class="shortdesc"> The frame generation takes care of building-up frames as requested by the functions defined in the <span class="ph apipseudolink">Function Layer</span>.      </p></div></div></div></li><li role="treeitem"><div data-tocid="group__crc_calc-d15038e212" class="topicref" data-id="group__crc_calc" data-state="leaf"><span role="button" class="wh-expand-btn"></span><div class="title"><a href="TLE9186_Device_Driver_group__crc_calc.html" id="group__crc_calc-d15038e212-link">CRC8 Calculation</a><div class="wh-tooltip"><p class="shortdesc"> Each frame includes a CRC8 checksum that is based on the SAE-J1850 standard.      </p></div></div></div></li></ul></li><li role="treeitem" aria-expanded="false"><div data-tocid="group__appl_layer-d15038e223" class="topicref" data-id="group__appl_layer" data-state="not-ready"><span role="button" tabindex="0" aria-labelledby="button-expand-action group__appl_layer-d15038e223-link" class="wh-expand-btn"></span><div class="title"><a href="TLE9186_Device_Driver_group__appl_layer.html" id="group__appl_layer-d15038e223-link">Application Layer</a><div class="wh-tooltip"><p class="shortdesc"> The Application Layer is in charge of utilizing the API functions of the device driver to an application code.      </p></div></div></div></li><li role="treeitem" aria-expanded="false"><div data-tocid="group__hal-d15038e256" class="topicref" data-id="group__hal" data-state="not-ready"><span role="button" tabindex="0" aria-labelledby="button-expand-action group__hal-d15038e256-link" class="wh-expand-btn"></span><div class="title"><a href="TLE9186_Device_Driver_group__hal.html" id="group__hal-d15038e256-link">Hardware Abstraction Layer</a><div class="wh-tooltip"><p class="shortdesc"> The Hardware Abstraction Layer offers platform depended functionality to the device driver. These functions are used by the <span class="ph apipseudolink">Service Layer</span> and the <span class="ph apipseudolink">Application Layer</span>.      </p></div></div></div></li></ul></li><li role="treeitem" aria-expanded="false"><div data-tocid="annotated-d15038e296" class="topicref newpage" data-id="annotated" data-state="not-ready"><span role="button" tabindex="0" aria-labelledby="button-expand-action annotated-d15038e296-link" class="wh-expand-btn"></span><div class="title"><a href="TLE9186_Device_Driver_annotated.html" id="annotated-d15038e296-link">Data Structures</a></div></div></li><li role="treeitem"><div data-tocid="trademarks-d15038e29945" class="topicref Trademarks" data-id="trademarks" data-state="leaf"><span role="button" class="wh-expand-btn"></span><div class="title"><a href="trademarks.html" id="trademarks-d15038e29945-link">Disclaimer</a></div></div></li></ul></div>
+		                        
+                            </div>
+                        </nav>
+                    
+                    
+                    <div class="col-lg-7 col-md-9 col-sm-12" id="wh_topic_body">
+                        <button id="wh_close_publication_toc_button" class="close-toc-button d-none" aria-label="Toggle publishing table of content" aria-controls="wh_publication_toc" aria-expanded="true">
+                            <span class="close-toc-icon-container">
+                                <span class="close-toc-icon"></span>     
+                            </span>
+                        </button>
+                        <button id="wh_close_topic_toc_button" class="close-toc-button d-none" aria-label="Toggle topic table of content" aria-controls="wh_topic_toc" aria-expanded="true">
+                            <span class="close-toc-icon-container">
+                                <span class="close-toc-icon"></span>     
+                            </span>
+                        </button>
+                        
+                        <div class=" wh_topic_content body "><main role="main"><article role="article" aria-labelledby="ariaid-title1"><h1 class="- topic/title title topictitle1 apipage__title" id="ariaid-title1">SPI Communication</h1><div class="- topic/body body"><p class="- topic/shortdesc shortdesc apipage__brief">
+The generated frames are transmitted via SPI to the device. 
+    </p></div><article class="- topic/topic topic nested1 apisect--summary" aria-labelledby="ariaid-title2" id="group__spi__com-members"><h2 class="- topic/title title topictitle2 apisect__title" id="ariaid-title2">Member summary</h2><div class="- topic/body body"><section class="- topic/section section apisummarysect apisummarysect--func" id="group__spi__com-members__func-summary" data-ofbid="group__spi__com-members__func-summary"><h3 class="- topic/title title sectiontitle apisummarysect__title">Functions</h3><div class="table-container"><table class="- topic/table table table-condensed table-striped apisummarytable" data-cols="1"><caption></caption><colgroup><col style="width:100%"/></colgroup><tbody class="- topic/tbody tbody"><tr class="- topic/row apisummarytable__row"><td class="- topic/entry entry colsep-0 rowsep-0"><span class="- topic/ph ph apisig__specifier--pre"></span> <span class="- topic/ph ph apisig__type">void</span> <span class="- topic/ph ph apisig__name"><a class="- topic/xref xref" href="TLE9186_Device_Driver_group__spi__com.html#function-detail-tle9186-servlayer-initspiinterface" title="Initialize the SPI interface of the microcontroller.">TLE9186_ServLayer_InitSpiInterface</a></span> ( <span class="- topic/ph ph apisig__type apisig__type--param">void</span>  ) </td></tr><tr class="- topic/row apisummarytable__row"><td class="- topic/entry entry colsep-0 rowsep-0"><span class="- topic/ph ph apisig__specifier--pre">static </span> <span class="- topic/ph ph apisig__type">void</span> <span class="- topic/ph ph apisig__name"><a class="- topic/xref xref" href="TLE9186_Device_Driver_group__spi__com.html#function-detail-tle9186-servlayer-readspirxbuffer" title="Read out the SPI RX buffer of the microcontroller.">TLE9186_ServLayer_ReadSpiRxBuffer</a></span> ( <span class="- topic/ph ph apisig__type apisig__type--param">void</span>  ) </td></tr><tr class="- topic/row apisummarytable__row"><td class="- topic/entry entry colsep-0 rowsep-0"><span class="- topic/ph ph apisig__specifier--pre">static </span> <span class="- topic/ph ph apisig__type">void</span> <span class="- topic/ph ph apisig__name"><a class="- topic/xref xref" href="TLE9186_Device_Driver_group__spi__com.html#function-detail-tle9186-servlayer-sendspidata" title="Sends data via the microcontroller's SPI interface.">TLE9186_ServLayer_SendSpiData</a></span> ( <span class="- topic/ph ph apisig__type apisig__type--param">void</span>  ) </td></tr><tr class="- topic/row apisummarytable__row"><td class="- topic/entry entry colsep-0 rowsep-0"><span class="- topic/ph ph apisig__specifier--pre"></span> <span class="- topic/ph ph apisig__type">void</span> <span class="- topic/ph ph apisig__name"><a class="- topic/xref xref" href="TLE9186_Device_Driver_group__spi__com.html#function-detail-tle9186-servlayer-spiinterfacestatus" title="Get the Status of the SPI interface.">TLE9186_ServLayer_SpiInterfaceStatus</a></span> ( <span class="- topic/ph ph apisig__type apisig__type--param">void</span>  ) </td></tr><tr class="- topic/row apisummarytable__row"><td class="- topic/entry entry colsep-0 rowsep-0"><span class="- topic/ph ph apisig__specifier--pre"></span> <span class="- topic/ph ph apisig__type">void</span> <span class="- topic/ph ph apisig__name"><a class="- topic/xref xref" href="TLE9186_Device_Driver_group__spi__com.html#function-detail-tle9186-servlayer-getspidata" title="Get SPI data from the buffer.">TLE9186_ServLayer_getSpiData</a></span> ( <span class="- topic/ph ph apisig__type apisig__type--param">void</span>  ) </td></tr></tbody></table></div></section></div></article><article class="- topic/topic topic nested1 apidetailsect" aria-labelledby="ariaid-title3" id="function-detail"><h2 class="- topic/title title topictitle2 apidetailsect__title" id="ariaid-title3">Function details</h2><div class="- topic/body body"></div><article class="- topic/topic topic nested2 apidetail apidetail--function" aria-labelledby="function-detail-tle9186-servlayer-initspiinterface__function-detail-tle9186-servlayer-initspiinterface-title" id="function-detail-tle9186-servlayer-initspiinterface"><h3 class="- topic/title title topictitle3 apisig apisig--detail apisig--function" id="function-detail-tle9186-servlayer-initspiinterface__function-detail-tle9186-servlayer-initspiinterface-title"><span class="- topic/ph ph apisig__type">void</span> <span class="- topic/ph ph apisig__name" id="function-detail-tle9186-servlayer-initspiinterface__function-detail-tle9186-servlayer-initspiinterface_name">TLE9186_ServLayer_InitSpiInterface</span> ( <span class="- topic/ph ph apisig__type apisig__type--param">void</span>  ) </h3><div class="- topic/body body"><p class="- topic/shortdesc shortdesc apipage__brief"><span class="- topic/ph ph" id="function-detail-tle9186-servlayer-initspiinterface__function-detail-tle9186-servlayer-initspiinterface_shortdesc">
+Initialize the SPI interface of the microcontroller. 
+        </span></p><p class="- topic/p p">Within this function the microcontroller specific initialization for the SPI interface can either be implemented or called. </p></div></article><article class="- topic/topic topic nested2 apidetail apidetail--function" aria-labelledby="function-detail-tle9186-servlayer-readspirxbuffer__function-detail-tle9186-servlayer-readspirxbuffer-title" id="function-detail-tle9186-servlayer-readspirxbuffer"><h3 class="- topic/title title topictitle3 apisig apisig--detail apisig--function" id="function-detail-tle9186-servlayer-readspirxbuffer__function-detail-tle9186-servlayer-readspirxbuffer-title"><span class="- topic/ph ph apisig__type">void</span> <span class="- topic/ph ph apisig__name" id="function-detail-tle9186-servlayer-readspirxbuffer__function-detail-tle9186-servlayer-readspirxbuffer_name">TLE9186_ServLayer_ReadSpiRxBuffer</span> ( <span class="- topic/ph ph apisig__type apisig__type--param">void</span>  ) <span class="- topic/ph ph apisig__specifier--post"> [static]</span></h3><div class="- topic/body body"><p class="- topic/shortdesc shortdesc apipage__brief"><span class="- topic/ph ph" id="function-detail-tle9186-servlayer-readspirxbuffer__function-detail-tle9186-servlayer-readspirxbuffer_shortdesc">
+Read out the SPI RX buffer of the microcontroller. 
+        </span></p><p class="- topic/p p">Within this function the microcontroller specific SPI buffer read out function can be either implemented or called. </p></div></article><article class="- topic/topic topic nested2 apidetail apidetail--function" aria-labelledby="function-detail-tle9186-servlayer-sendspidata__function-detail-tle9186-servlayer-sendspidata-title" id="function-detail-tle9186-servlayer-sendspidata"><h3 class="- topic/title title topictitle3 apisig apisig--detail apisig--function" id="function-detail-tle9186-servlayer-sendspidata__function-detail-tle9186-servlayer-sendspidata-title"><span class="- topic/ph ph apisig__type">void</span> <span class="- topic/ph ph apisig__name" id="function-detail-tle9186-servlayer-sendspidata__function-detail-tle9186-servlayer-sendspidata_name">TLE9186_ServLayer_SendSpiData</span> ( <span class="- topic/ph ph apisig__type apisig__type--param">void</span>  ) <span class="- topic/ph ph apisig__specifier--post"> [static]</span></h3><div class="- topic/body body"><p class="- topic/shortdesc shortdesc apipage__brief"><span class="- topic/ph ph" id="function-detail-tle9186-servlayer-sendspidata__function-detail-tle9186-servlayer-sendspidata_shortdesc">
+Sends data via the microcontroller's SPI interface. 
+        </span></p><p class="- topic/p p">Within this function the microcontroller specific SPI TX function has to be called or implemented. The transmit function has to transmit the variable u32_txBuffer that contains the SPI message. </p></div></article><article class="- topic/topic topic nested2 apidetail apidetail--function" aria-labelledby="function-detail-tle9186-servlayer-spiinterfacestatus__function-detail-tle9186-servlayer-spiinterfacestatus-title" id="function-detail-tle9186-servlayer-spiinterfacestatus"><h3 class="- topic/title title topictitle3 apisig apisig--detail apisig--function" id="function-detail-tle9186-servlayer-spiinterfacestatus__function-detail-tle9186-servlayer-spiinterfacestatus-title"><span class="- topic/ph ph apisig__type">void</span> <span class="- topic/ph ph apisig__name" id="function-detail-tle9186-servlayer-spiinterfacestatus__function-detail-tle9186-servlayer-spiinterfacestatus_name">TLE9186_ServLayer_SpiInterfaceStatus</span> ( <span class="- topic/ph ph apisig__type apisig__type--param">void</span>  ) </h3><div class="- topic/body body"><p class="- topic/shortdesc shortdesc apipage__brief"><span class="- topic/ph ph" id="function-detail-tle9186-servlayer-spiinterfacestatus__function-detail-tle9186-servlayer-spiinterfacestatus_shortdesc">
+Get the Status of the SPI interface. 
+        </span></p><p class="- topic/p p">Within this function the microcontroller specific SPI status function has to be implemented or called. The result has to be written to s_deviceDriver.u8_statusSPI. </p></div></article><article class="- topic/topic topic nested2 apidetail apidetail--function" aria-labelledby="function-detail-tle9186-servlayer-getspidata__function-detail-tle9186-servlayer-getspidata-title" id="function-detail-tle9186-servlayer-getspidata"><h3 class="- topic/title title topictitle3 apisig apisig--detail apisig--function" id="function-detail-tle9186-servlayer-getspidata__function-detail-tle9186-servlayer-getspidata-title"><span class="- topic/ph ph apisig__type">void</span> <span class="- topic/ph ph apisig__name" id="function-detail-tle9186-servlayer-getspidata__function-detail-tle9186-servlayer-getspidata_name">TLE9186_ServLayer_getSpiData</span> ( <span class="- topic/ph ph apisig__type apisig__type--param">void</span>  ) </h3><div class="- topic/body body"><p class="- topic/shortdesc shortdesc apipage__brief"><span class="- topic/ph ph" id="function-detail-tle9186-servlayer-getspidata__function-detail-tle9186-servlayer-getspidata_shortdesc">
+Get SPI data from the buffer. 
+        </span></p><p class="- topic/p p">This function reads the data from the SPI buffer into the global buffer for further processing. It additionally calculates the CRC checksum of the incoming frame. </p></div></article></article></article></main></div>
+                        
+                        
+                        
+                        
+                        
+                        
+                    </div>
+                    
+                        <nav role="navigation" id="wh_topic_toc" aria-label="On this page" class="col-lg-2 d-none d-lg-block navbar d-print-none"> 
+                            <div id="wh_topic_toc_content">
+		                        
+	                            <div class=" wh_topic_toc "><div class="wh_topic_label">On this page</div><ul><li class="topic-item"><a href="#group__spi__com-members" data-tocid="group__spi__com-members">Member summary</a><ul><li class="section-item"><div class="section-title"><a href="#group__spi__com-members__func-summary" data-tocid="group__spi__com-members__func-summary">Functions</a></div></li></ul></li><li class="topic-item"><a href="#function-detail" data-tocid="function-detail">Function details</a><ul><li class="topic-item"><a href="#function-detail-tle9186-servlayer-initspiinterface" data-tocid="function-detail-tle9186-servlayer-initspiinterface"><span class="- topic/ph ph apisig__type">void</span> <span class="- topic/ph ph apisig__name" id="function-detail-tle9186-servlayer-initspiinterface__function-detail-tle9186-servlayer-initspiinterface_name">TLE9186_ServLayer_InitSpiInterface</span> ( <span class="- topic/ph ph apisig__type apisig__type--param">void</span>  ) </a></li><li class="topic-item"><a href="#function-detail-tle9186-servlayer-readspirxbuffer" data-tocid="function-detail-tle9186-servlayer-readspirxbuffer"><span class="- topic/ph ph apisig__type">void</span> <span class="- topic/ph ph apisig__name" id="function-detail-tle9186-servlayer-readspirxbuffer__function-detail-tle9186-servlayer-readspirxbuffer_name">TLE9186_ServLayer_ReadSpiRxBuffer</span> ( <span class="- topic/ph ph apisig__type apisig__type--param">void</span>  ) <span class="- topic/ph ph apisig__specifier--post"> [static]</span></a></li><li class="topic-item"><a href="#function-detail-tle9186-servlayer-sendspidata" data-tocid="function-detail-tle9186-servlayer-sendspidata"><span class="- topic/ph ph apisig__type">void</span> <span class="- topic/ph ph apisig__name" id="function-detail-tle9186-servlayer-sendspidata__function-detail-tle9186-servlayer-sendspidata_name">TLE9186_ServLayer_SendSpiData</span> ( <span class="- topic/ph ph apisig__type apisig__type--param">void</span>  ) <span class="- topic/ph ph apisig__specifier--post"> [static]</span></a></li><li class="topic-item"><a href="#function-detail-tle9186-servlayer-spiinterfacestatus" data-tocid="function-detail-tle9186-servlayer-spiinterfacestatus"><span class="- topic/ph ph apisig__type">void</span> <span class="- topic/ph ph apisig__name" id="function-detail-tle9186-servlayer-spiinterfacestatus__function-detail-tle9186-servlayer-spiinterfacestatus_name">TLE9186_ServLayer_SpiInterfaceStatus</span> ( <span class="- topic/ph ph apisig__type apisig__type--param">void</span>  ) </a></li><li class="topic-item"><a href="#function-detail-tle9186-servlayer-getspidata" data-tocid="function-detail-tle9186-servlayer-getspidata"><span class="- topic/ph ph apisig__type">void</span> <span class="- topic/ph ph apisig__name" id="function-detail-tle9186-servlayer-getspidata__function-detail-tle9186-servlayer-getspidata_name">TLE9186_ServLayer_getSpiData</span> ( <span class="- topic/ph ph apisig__type apisig__type--param">void</span>  ) </a></li></ul></li></ul></div>
+	                        	
+                        	</div>
+                        </nav>
+                    
+                </div>
+            </div>
+            
+            
+            
+        </div> 
+        <footer class="navbar navbar-default wh_footer">
+  <div xmlns="" class="ifx-footer"><div class="ifx-flex-container"><span><span class="copyright_info">© 2024 Infineon Technologies AG</span><span class="doctype"></span></span><span class="important-notice"><a href="trademarks.html">Please read the sections "Important notice" and "Warnings" at the end of this document</a></span><span id="security-level" class="security-level-restricted">restricted</span></div></div>
+</footer>
+        
+        <div id="go2top" class="d-print-none">
+            <span class="oxy-icon oxy-icon-up"></span>
+        </div>
+        
+        <div id="modal_img_large" class="modal">
+            <span class="close oxy-icon oxy-icon-remove"></span>
+            <div id="modal_img_container"></div>
+            <div id="caption"></div>
+        </div>
+        
+        
+        
+    </body>
+</html>

@@ -1,0 +1,200 @@
+<!DOCTYPE html><html xmlns="http://www.w3.org/1999/xhtml" xml:lang="en-us" lang="en-us" data-whc_version="25.0">
+    <head><link rel="shortcut icon" href="oxygen-webhelp\template\image/favicon.ico"/><link rel="icon" href="oxygen-webhelp\template\image/favicon.ico"/><meta http-equiv="Content-Type" content="text/html; charset=UTF-8"/><meta name="viewport" content="width=device-width, initial-scale=1.0"/><meta http-equiv="X-UA-Compatible" content="IE=edge"/><meta name="description" content="As described in previous chapters, the device offers two different gate current sequencer schemes for the active MOSFET. For the passive freewheeling MOSFET, the device offers some configuration ..."/><meta name="copyright" content="(C) Copyright 2026"/><meta name="generator" content="DITA-OT"/><title>Freewheeling MOSFET</title><!--  Generated with Oxygen version 25.0, build number 2022101006.  --><meta name="wh-path2root" content=""/><meta name="wh-toc-id" content="oyn1738842912612-d2984e318"/><meta name="wh-source-relpath" content="oyn1738842912612.xml"/><meta name="wh-out-relpath" content="oyn1738842912612.html"/>
+
+    <link rel="stylesheet" type="text/css" href="./oxygen-webhelp/app/commons.css?buildId=2022101006"/>
+    <link rel="stylesheet" type="text/css" href="./oxygen-webhelp/app/topic.css?buildId=2022101006"/>
+
+    <script>
+        var oxy_webhelp_navlinks = {};
+    </script>
+    <script src="./oxygen-webhelp/app/options/properties.js?buildId=20261014125403"></script>
+    <script src="./oxygen-webhelp/app/localization/strings.js?buildId=2022101006"></script>
+    <script src="./oxygen-webhelp/app/search/index/keywords.js?buildId=20261014125403"></script>
+    <script defer="defer" src="./oxygen-webhelp/app/commons.js?buildId=2022101006"></script>
+    <script defer="defer" src="./oxygen-webhelp/app/topic.js?buildId=2022101006"></script>
+<link rel="stylesheet" type="text/css" href="oxygen-webhelp/template/css/light.css?buildId=2022101006"/><link rel="stylesheet" type="text/css" href="oxygen-webhelp/template/css/infineon.css?buildId=2022101006"/><link rel="stylesheet" type="text/css" href="oxygen-webhelp/template/css/prism.css?buildId=2022101006"/>
+    <script type="text/javascript" src="./oxygen-webhelp/template/js/prism.js"></script>
+    <script id="MathJax-script" async="async" src="https://cdn.jsdelivr.net/npm/mathjax@3/es5/tex-mml-chtml.js"></script>
+</head>
+
+    <body id="oyn1738842912612" class="wh_topic_page frmBody">
+        <a href="#wh_topic_body" class="sr-only sr-only-focusable">
+            Jump to main content
+        </a>
+        
+        
+        
+        
+        <header class="navbar navbar-default wh_header">
+    <div class="container-fluid">
+        <div class="wh_header_flex_container navbar-nav navbar-expand-md navbar-dark">
+            <div class="wh_logo_and_publication_title_container">
+                <div class="wh_logo_and_publication_title">
+                    
+                    <a href="https://www.infineon.com" class=" wh_logo d-none d-sm-block "><img src="oxygen-webhelp\template\image/infineon-logo.png" alt="Infineon Technologies"/></a>
+                    <div class=" wh_publication_title "><a href="index.html"><span class="title">TLE9186</span></a></div>
+                    
+                </div>
+                
+                
+            </div>
+
+            <div class="wh_top_menu_and_indexterms_link collapse navbar-collapse" id="wh_top_menu_and_indexterms_link">
+                
+                
+                
+                
+            </div>
+        </div>
+    </div>
+</header>
+        <div class="workflow-status" data-status="not-draft">
+    not-draft
+</div>
+        
+         
+        
+        <div class=" wh_search_input navbar-form wh_topic_page_search search " role="form">
+            
+            
+            
+            <form id="searchForm" method="get" role="search" action="search.html"><div><input type="search" placeholder="Search " class="wh_search_textfield" id="textToSearch" name="searchQuery" aria-label="Search query" required="required"/><button type="submit" class="wh_search_button" aria-label="Search"><span class="search_input_text">Search</span></button></div></form>
+            
+            
+            
+        </div>
+        
+        <div class="container-fluid" id="wh_topic_container">
+            <div class="row">
+
+                <nav class="wh_tools d-print-none navbar-expand-md" aria-label="Tools">
+                    
+                    <div data-tooltip-position="bottom" class=" wh_breadcrumb "><ol class="d-print-none"><li><span class="home"><a href="index.html"><span>Home</span></a></span></li><li><div class="topicref newpage" data-id="feg1685623649198"><div class="title"><a href="feg1685623649198.html">Additional functional information</a><div class="wh-tooltip"><p class="shortdesc">This chapter includes additional information for each module of the 		device.</p></div></div></div></li><li><div class="topicref" data-id="obz1686235284392"><div class="title"><a href="obz1686235284392.html">Gate driver (additional information)</a></div></div></li><li class="active"><div class="topicref" data-id="oyn1738842912612"><div class="title"><a href="oyn1738842912612.html">Freewheeling MOSFET</a></div></div></li></ol></div>
+                    
+                    
+                    
+                    <div class="wh_right_tools">
+                        <button class="wh_hide_highlight" aria-label="Toggle search highlights" title="Toggle search highlights"></button>
+                        <button class="webhelp_expand_collapse_sections" data-next-state="collapsed" aria-label="Collapse sections" title="Collapse sections"></button>
+                        
+                        
+                        
+                        
+                        <div class=" wh_print_link print d-none d-md-inline-block "><button onClick="window.print()" title="Print this page" aria-label="Print this page"></button></div>
+                        
+                        <button type="button" id="wh_toc_button" class="custom-toggler navbar-toggler collapsed wh_toggle_button navbar-light" aria-expanded="false" aria-label="Toggle publishing table of content" aria-controls="wh_publication_toc">
+                            <span class="navbar-toggler-icon"></span>
+                        </button>
+                    </div>
+                    
+                </nav>
+            </div>
+            
+            
+            
+            
+            <div class="wh_content_area">
+                <div class="row">
+                    
+                        <nav id="wh_publication_toc" class="col-lg-3 col-md-3 col-sm-12 d-md-block d-none d-print-none" aria-label="Table of Contents Container">
+                            <div id="wh_publication_toc_content">
+		                        
+                            	<div class=" wh_publication_toc " data-tooltip-position="right"><span class="expand-button-action-labels"><span id="button-expand-action" role="button" aria-label="Expand"></span><span id="button-collapse-action" role="button" aria-label="Collapse"></span><span id="button-pending-action" role="button" aria-label="Pending"></span></span><ul role="tree" aria-label="Table of Contents"><li role="treeitem"><div data-tocid="Chunk1673076281-d2984e64" class="topicref" data-id="Chunk1673076281" data-state="leaf"><span role="button" class="wh-expand-btn"></span><div class="title"><a href="Chunk1673076281.html#Chunk1673076281" id="Chunk1673076281-d2984e64-link">Preface</a></div></div></li><li role="treeitem" aria-expanded="true"><div data-tocid="feg1685623649198-d2984e130" class="topicref newpage" data-id="feg1685623649198" data-state="expanded"><span role="button" tabindex="0" aria-labelledby="button-collapse-action feg1685623649198-d2984e130-link" class="wh-expand-btn"></span><div class="title"><a href="feg1685623649198.html" id="feg1685623649198-d2984e130-link">Additional functional information</a><div class="wh-tooltip"><p class="shortdesc">This chapter includes additional information for each module of the 		device.</p></div></div></div><ul role="group" class="navbar-nav nav-list"><li role="treeitem" aria-expanded="false"><div data-tocid="uwk1686235093390-d2984e141" class="topicref" data-id="uwk1686235093390" data-state="not-ready"><span role="button" tabindex="0" aria-labelledby="button-expand-action uwk1686235093390-d2984e141-link" class="wh-expand-btn"></span><div class="title"><a href="uwk1686235093390.html" id="uwk1686235093390-d2984e141-link">State machine (additional information)</a><div class="wh-tooltip"><p class="shortdesc">This chapter provides additional information about the device state 		machine, which is described in the datasheet.</p></div></div></div></li><li role="treeitem" aria-expanded="false"><div data-tocid="kyv1686235263378-d2984e219" class="topicref" data-id="kyv1686235263378" data-state="not-ready"><span role="button" tabindex="0" aria-labelledby="button-expand-action kyv1686235263378-d2984e219-link" class="wh-expand-btn"></span><div class="title"><a href="kyv1686235263378.html" id="kyv1686235263378-d2984e219-link">Power supply (additional information)</a><div class="wh-tooltip"><p class="shortdesc">This chapter provides additional information about the device charge pump 		power supply, which is described in the datasheet.</p></div></div></div></li><li role="treeitem" aria-expanded="true"><div data-tocid="obz1686235284392-d2984e246" class="topicref" data-id="obz1686235284392" data-state="expanded"><span role="button" tabindex="0" aria-labelledby="button-collapse-action obz1686235284392-d2984e246-link" class="wh-expand-btn"></span><div class="title"><a href="obz1686235284392.html" id="obz1686235284392-d2984e246-link">Gate driver (additional information)</a></div></div><ul role="group" class="navbar-nav nav-list"><li role="treeitem"><div data-tocid="wrc1698937186215-d2984e254" class="topicref" data-id="wrc1698937186215" data-state="leaf"><span role="button" class="wh-expand-btn"></span><div class="title"><a href="wrc1698937186215.html" id="wrc1698937186215-d2984e254-link">Active MOSFET and freewheeling MOSFET</a></div></div></li><li role="treeitem" aria-expanded="false"><div data-tocid="rdf1698937553800-d2984e262" class="topicref" data-id="rdf1698937553800" data-state="not-ready"><span role="button" tabindex="0" aria-labelledby="button-expand-action rdf1698937553800-d2984e262-link" class="wh-expand-btn"></span><div class="title"><a href="rdf1698937553800.html" id="rdf1698937553800-d2984e262-link">Gate current sequencer: turn ON and turn OFF of active MOSFET</a></div></div></li><li role="treeitem" class="active"><div data-tocid="oyn1738842912612-d2984e318" class="topicref" data-id="oyn1738842912612" data-state="leaf"><span role="button" class="wh-expand-btn"></span><div class="title"><a href="oyn1738842912612.html" id="oyn1738842912612-d2984e318-link">Freewheeling MOSFET</a></div></div></li><li role="treeitem"><div data-tocid="szt1700837910912-d2984e326" class="topicref" data-id="szt1700837910912" data-state="leaf"><span role="button" class="wh-expand-btn"></span><div class="title"><a href="szt1700837910912.html" id="szt1700837910912-d2984e326-link">TDON, TDOFF and TSLEW_ON, TSLEW_OFF time measurements</a></div></div></li></ul></li><li role="treeitem" aria-expanded="false"><div data-tocid="ftm1686235309642-d2984e334" class="topicref" data-id="ftm1686235309642" data-state="not-ready"><span role="button" tabindex="0" aria-labelledby="button-expand-action ftm1686235309642-d2984e334-link" class="wh-expand-btn"></span><div class="title"><a href="ftm1686235309642.html" id="ftm1686235309642-d2984e334-link">Current sense amplifier (additional information)</a></div></div></li><li role="treeitem" aria-expanded="false"><div data-tocid="vzg1686235332576-d2984e358" class="topicref" data-id="vzg1686235332576" data-state="not-ready"><span role="button" tabindex="0" aria-labelledby="button-expand-action vzg1686235332576-d2984e358-link" class="wh-expand-btn"></span><div class="title"><a href="vzg1686235332576.html" id="vzg1686235332576-d2984e358-link">SPI (additional information)</a></div></div></li><li role="treeitem" aria-expanded="false"><div data-tocid="hdg1686235361506-d2984e463" class="topicref" data-id="hdg1686235361506" data-state="not-ready"><span role="button" tabindex="0" aria-labelledby="button-expand-action hdg1686235361506-d2984e463-link" class="wh-expand-btn"></span><div class="title"><a href="hdg1686235361506.html" id="hdg1686235361506-d2984e463-link">Diagnostics (additional information)</a></div></div></li><li role="treeitem"><div data-tocid="jgs1686235385623-d2984e854" class="topicref" data-id="jgs1686235385623" data-state="leaf"><span role="button" class="wh-expand-btn"></span><div class="title"><a href="jgs1686235385623.html" id="jgs1686235385623-d2984e854-link">Safe state (additional information)</a></div></div></li></ul></li><li role="treeitem" aria-expanded="false"><div data-tocid="pyd1707810723834-d2984e862" class="topicref newpage" data-id="pyd1707810723834" data-state="not-ready"><span role="button" tabindex="0" aria-labelledby="button-expand-action pyd1707810723834-d2984e862-link" class="wh-expand-btn"></span><div class="title"><a href="pyd1707810723834.html" id="pyd1707810723834-d2984e862-link">SPI register specification</a><div class="wh-tooltip"><p class="shortdesc">SPI register specification includes nominal values. For settings options 		and exact values of timings, currents or thresholds refer to the device datasheet for 		further information.</p></div></div></div></li><li role="treeitem" aria-expanded="false"><div data-tocid="jve1685623663004-d2984e1906" class="topicref newpage" data-id="jve1685623663004" data-state="not-ready"><span role="button" tabindex="0" aria-labelledby="button-expand-action jve1685623663004-d2984e1906-link" class="wh-expand-btn"></span><div class="title"><a href="jve1685623663004.html" id="jve1685623663004-d2984e1906-link">Application information (additional information)</a><div class="wh-tooltip"><p class="shortdesc">This chapter includes additional information on external circuitry needed 		for the device. An example application diagram with all required and optional external 		components is shown below.</p></div></div></div></li><li role="treeitem"><div data-tocid="mje1685607723572-d2984e1949" class="topicref RevisionHistory newpage" data-id="mje1685607723572" data-state="leaf"><span role="button" class="wh-expand-btn"></span><div class="title"><a href="mje1685607723572.html" id="mje1685607723572-d2984e1949-link">Revision history</a></div></div></li><li role="treeitem"><div data-tocid="trademarks-d2984e1957" class="topicref Trademarks" data-id="trademarks" data-state="leaf"><span role="button" class="wh-expand-btn"></span><div class="title"><a href="trademarks.html" id="trademarks-d2984e1957-link">Disclaimer</a></div></div></li></ul></div>
+		                        
+                            </div>
+                        </nav>
+                    
+                    
+                    <div class="col-lg-9 col-md-9 col-sm-12" id="wh_topic_body">
+                        <button id="wh_close_publication_toc_button" class="close-toc-button d-none" aria-label="Toggle publishing table of content" aria-controls="wh_publication_toc" aria-expanded="true">
+                            <span class="close-toc-icon-container">
+                                <span class="close-toc-icon"></span>     
+                            </span>
+                        </button>
+                        
+                        
+                        <div class=" wh_topic_content body "><main role="main"><article role="article" aria-labelledby="ariaid-title1">
+	<h1 class="- topic/title title topictitle1" id="ariaid-title1">Freewheeling MOSFET</h1>
+	<div class="- topic/body body">
+		<p class="- topic/p p">As described in previous chapters, the device offers two different gate current
+			sequencer schemes for the active MOSFET. For the passive freewheeling MOSFET, the device
+			offers some configuration possibility as well, which changes the gate currents applied
+			during turn ON and turn OFF of the freewheeling MOSFET. The behavior can be selected by
+			control bit FW_CFG in SPI register CONFIG_SECURED:</p>
+		<ul class="- topic/ul ul" id="oyn1738842912612__ul_k5s_1q1_h2c" data-ofbid="oyn1738842912612__ul_k5s_1q1_h2c">
+			<li class="- topic/li li">FW_CFG = "0" (default): freewheeling device does not use
+				precharge/predischarge phase</li>
+			<li class="- topic/li li">FW_CFG = "1": freewheeling device uses precharge/predischarge phase
+				(t1ON_HS, t1ON_LS, t1OFF_HS,t1OFF_LS)</li>
+		</ul>
+		<p class="- topic/p p">The figures below show the two possibilities of the freewheeling turn ON/OFF
+			behavior.</p>
+		<div class="table-container"><table class="- topic/table table frame-topbot" id="oyn1738842912612__table_elt_gvh_4fc" data-ofbid="oyn1738842912612__table_elt_gvh_4fc" data-cols="2"><caption class="- topic/title title tablecap" data-caption-side="top" data-is-repeated="true"><span class="table--title-label">Table <span class="table--title-label-number"> 1</span><span class="table--title-label-punctuation">. </span></span><span class="table--title">Freewheeling turn ON/OFF behavior</span></caption><colgroup><col style="width:50%"/><col style="width:50%"/></colgroup><thead class="- topic/thead thead">
+					<tr class="- topic/row">
+						<th class="- topic/entry entry colsep-1 rowsep-1" id="oyn1738842912612__table_elt_gvh_4fc__entry__1">FW_CFG = "0"</th>
+						<th class="- topic/entry entry colsep-0 rowsep-1" id="oyn1738842912612__table_elt_gvh_4fc__entry__2">FW_CFG = "1"</th>
+					</tr>
+				</thead><tbody class="- topic/tbody tbody">
+					<tr class="- topic/row">
+						<td class="- topic/entry entry colsep-1 rowsep-1" headers="oyn1738842912612__table_elt_gvh_4fc__entry__1">
+							<figure class="- topic/fig fig fignone" id="oyn1738842912612__fig_cpc_3vh_4fc" data-ofbid="oyn1738842912612__fig_cpc_3vh_4fc"><figcaption data-caption-side="top" class="- topic/title title figcap"><span class="figtitleprefix fig--title-label">Figure <span class="fig--title-label-number"> 1</span><span class="fig--title-label-punctuation">. </span></span><span class="fig--title">Turn OFF of FW MOSFET FW_CFG = "0"</span></figcaption>
+								
+								<object type="image/svg+xml" class="- topic/image image" id="oyn1738842912612__image_dpc_3vh_4fc" data="lyd1738923120361.svg"></object><br/>
+							</figure>
+						</td>
+						<td class="- topic/entry entry colsep-0 rowsep-1" headers="oyn1738842912612__table_elt_gvh_4fc__entry__2">
+							<figure class="- topic/fig fig fignone" id="oyn1738842912612__fig_avn_3vh_4fc" data-ofbid="oyn1738842912612__fig_avn_3vh_4fc"><figcaption data-caption-side="top" class="- topic/title title figcap"><span class="figtitleprefix fig--title-label">Figure <span class="fig--title-label-number"> 2</span><span class="fig--title-label-punctuation">. </span></span><span class="fig--title">Turn OFF of FW MOSFET FW_CFG = "1"</span></figcaption>
+								
+								<object type="image/svg+xml" class="- topic/image image" id="oyn1738842912612__image_bvn_3vh_4fc" data="ugd1738923187072.svg"></object><br/>
+							</figure>
+						</td>
+					</tr>
+					<tr class="- topic/row">
+						<td class="- topic/entry entry colsep-1 rowsep-0" headers="oyn1738842912612__table_elt_gvh_4fc__entry__1">
+							<figure class="- topic/fig fig fignone" id="oyn1738842912612__fig_xh2_jvh_4fc" data-ofbid="oyn1738842912612__fig_xh2_jvh_4fc"><figcaption data-caption-side="top" class="- topic/title title figcap"><span class="figtitleprefix fig--title-label">Figure <span class="fig--title-label-number"> 3</span><span class="fig--title-label-punctuation">. </span></span><span class="fig--title">Turn ON of FW MOSFET FW_CFG = "0"</span></figcaption>
+								
+								<object type="image/svg+xml" class="- topic/image image" id="oyn1738842912612__image_yh2_jvh_4fc" data="vhe1738923158151.svg"></object><br/>
+							</figure>
+						</td>
+						<td class="- topic/entry entry colsep-0 rowsep-0" headers="oyn1738842912612__table_elt_gvh_4fc__entry__2">
+							<figure class="- topic/fig fig fignone" id="oyn1738842912612__fig_dwn_kvh_4fc" data-ofbid="oyn1738842912612__fig_dwn_kvh_4fc"><figcaption data-caption-side="top" class="- topic/title title figcap"><span class="figtitleprefix fig--title-label">Figure <span class="fig--title-label-number"> 4</span><span class="fig--title-label-punctuation">. </span></span><span class="fig--title">Turn ON of FW MOSFET FW_CFG = "1"</span></figcaption>
+								
+								<object type="image/svg+xml" class="- topic/image image" id="oyn1738842912612__image_ewn_kvh_4fc" data="zlk1738923207238.svg"></object><br/>
+							</figure>
+						</td>
+					</tr>
+				</tbody></table></div>
+	</div>
+</article></main></div>
+                        
+                        
+                        <div class=" wh_related_links d-print-none "><nav aria-label="Related Links" role="navigation" class="- topic/related-links related-links"><div class="linklist"><div class="familylinks related_link"><div class="parentlink"><strong>Parent topic:</strong> <a class="- topic/link link navheader_parent_path" href="obz1686235284392.html" title="Gate driver (additional information)">Gate driver (additional information)</a></div></div></div></nav></div>
+                        
+                        
+                        
+                    </div>
+                    
+                </div>
+            </div>
+            
+            
+            
+        </div> 
+        <footer class="navbar navbar-default wh_footer">
+  <div xmlns="" class="ifx-footer"><div class="ifx-flex-container"><span><span class="copyright_info">© 2026 Infineon Technologies AG</span><span class="doctype"></span></span><span class="important-notice"><a href="trademarks.html">Please read the Important Notice at the end of this document</a></span><span id="security-level" class="security-level-public"></span><span class="document-version-date"><span>1.11</span><span>2026-09-03</span></span></div></div>
+</footer>
+        
+        <div id="go2top" class="d-print-none">
+            <span class="oxy-icon oxy-icon-up"></span>
+        </div>
+        
+        <div id="modal_img_large" class="modal">
+            <span class="close oxy-icon oxy-icon-remove"></span>
+            <div id="modal_img_container"></div>
+            <div id="caption"></div>
+        </div>
+        
+        
+        
+    </body>
+</html>

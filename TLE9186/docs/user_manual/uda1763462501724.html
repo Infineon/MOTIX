@@ -1,0 +1,1112 @@
+<!DOCTYPE html><html xmlns="http://www.w3.org/1999/xhtml" xml:lang="en-us" lang="en-us" data-whc_version="25.0">
+    <head><link rel="shortcut icon" href="oxygen-webhelp\template\image/favicon.ico"/><link rel="icon" href="oxygen-webhelp\template\image/favicon.ico"/><meta http-equiv="Content-Type" content="text/html; charset=UTF-8"/><meta name="viewport" content="width=device-width, initial-scale=1.0"/><meta http-equiv="X-UA-Compatible" content="IE=edge"/><meta name="description" content="IOFF_LS1 Offset address: 18 Gate driver Configuration register - IOFF_LS1 DefaultReset value: 2020 15 14 13 12 11 10 9 8 7 6 5 4 3 2 1 0 IOFF_LS_BNK I1OFF_LS1 0 I2OFF_LS1 rw rw res rw Field Bits Type ..."/><meta name="copyright" content="(C) Copyright 2026"/><meta name="generator" content="DITA-OT"/><title>Gate driver Configuration register - IOFF_LS1</title><!--  Generated with Oxygen version 25.0, build number 2022101006.  --><meta name="wh-path2root" content=""/><meta name="wh-toc-id" content="id_IFX_SP_TLE9186_140_generic_Register_IOFF_LS1_6542-d2984e1068"/><meta name="wh-source-relpath" content="uda1763462501724.dita"/><meta name="wh-out-relpath" content="uda1763462501724.html"/>
+
+    <link rel="stylesheet" type="text/css" href="./oxygen-webhelp/app/commons.css?buildId=2022101006"/>
+    <link rel="stylesheet" type="text/css" href="./oxygen-webhelp/app/topic.css?buildId=2022101006"/>
+
+    <script>
+        var oxy_webhelp_navlinks = {};
+    </script>
+    <script src="./oxygen-webhelp/app/options/properties.js?buildId=20261014125403"></script>
+    <script src="./oxygen-webhelp/app/localization/strings.js?buildId=2022101006"></script>
+    <script src="./oxygen-webhelp/app/search/index/keywords.js?buildId=20261014125403"></script>
+    <script defer="defer" src="./oxygen-webhelp/app/commons.js?buildId=2022101006"></script>
+    <script defer="defer" src="./oxygen-webhelp/app/topic.js?buildId=2022101006"></script>
+<link rel="stylesheet" type="text/css" href="oxygen-webhelp/template/css/light.css?buildId=2022101006"/><link rel="stylesheet" type="text/css" href="oxygen-webhelp/template/css/infineon.css?buildId=2022101006"/><link rel="stylesheet" type="text/css" href="oxygen-webhelp/template/css/prism.css?buildId=2022101006"/>
+    <script type="text/javascript" src="./oxygen-webhelp/template/js/prism.js"></script>
+    <script id="MathJax-script" async="async" src="https://cdn.jsdelivr.net/npm/mathjax@3/es5/tex-mml-chtml.js"></script>
+</head>
+
+    <body id="id_IFX_SP_TLE9186_140_generic_Register_IOFF_LS1_6542" class="wh_topic_page EssenceRegister">
+        <a href="#wh_topic_body" class="sr-only sr-only-focusable">
+            Jump to main content
+        </a>
+        
+        
+        
+        
+        <header class="navbar navbar-default wh_header">
+    <div class="container-fluid">
+        <div class="wh_header_flex_container navbar-nav navbar-expand-md navbar-dark">
+            <div class="wh_logo_and_publication_title_container">
+                <div class="wh_logo_and_publication_title">
+                    
+                    <a href="https://www.infineon.com" class=" wh_logo d-none d-sm-block "><img src="oxygen-webhelp\template\image/infineon-logo.png" alt="Infineon Technologies"/></a>
+                    <div class=" wh_publication_title "><a href="index.html"><span class="title">TLE9186</span></a></div>
+                    
+                </div>
+                
+                
+            </div>
+
+            <div class="wh_top_menu_and_indexterms_link collapse navbar-collapse" id="wh_top_menu_and_indexterms_link">
+                
+                
+                
+                
+            </div>
+        </div>
+    </div>
+</header>
+        <div class="workflow-status" data-status="not-draft">
+    not-draft
+</div>
+        
+         
+        
+        <div class=" wh_search_input navbar-form wh_topic_page_search search " role="form">
+            
+            
+            
+            <form id="searchForm" method="get" role="search" action="search.html"><div><input type="search" placeholder="Search " class="wh_search_textfield" id="textToSearch" name="searchQuery" aria-label="Search query" required="required"/><button type="submit" class="wh_search_button" aria-label="Search"><span class="search_input_text">Search</span></button></div></form>
+            
+            
+            
+        </div>
+        
+        <div class="container-fluid" id="wh_topic_container">
+            <div class="row">
+
+                <nav class="wh_tools d-print-none navbar-expand-md" aria-label="Tools">
+                    
+                    <div data-tooltip-position="bottom" class=" wh_breadcrumb "><ol class="d-print-none"><li><span class="home"><a href="index.html"><span>Home</span></a></span></li><li><div class="topicref newpage" data-id="pyd1707810723834"><div class="title"><a href="pyd1707810723834.html">SPI register specification</a><div class="wh-tooltip"><p class="shortdesc">SPI register specification includes nominal values. For settings options 		and exact values of timings, currents or thresholds refer to the device datasheet for 		further information.</p></div></div></div></li><li class="active"><div class="topicref newpage" data-id="id_IFX_SP_TLE9186_140_generic_Register_IOFF_LS1_6542"><div class="title"><a href="uda1763462501724.html">Gate driver Configuration register - IOFF_LS1</a></div></div></li></ol></div>
+                    
+                    
+                    
+                    <div class="wh_right_tools">
+                        <button class="wh_hide_highlight" aria-label="Toggle search highlights" title="Toggle search highlights"></button>
+                        <button class="webhelp_expand_collapse_sections" data-next-state="collapsed" aria-label="Collapse sections" title="Collapse sections"></button>
+                        
+                        
+                        
+                        
+                        <div class=" wh_print_link print d-none d-md-inline-block "><button onClick="window.print()" title="Print this page" aria-label="Print this page"></button></div>
+                        
+                        <button type="button" id="wh_toc_button" class="custom-toggler navbar-toggler collapsed wh_toggle_button navbar-light" aria-expanded="false" aria-label="Toggle publishing table of content" aria-controls="wh_publication_toc">
+                            <span class="navbar-toggler-icon"></span>
+                        </button>
+                    </div>
+                    
+                </nav>
+            </div>
+            
+            
+            
+            
+            <div class="wh_content_area">
+                <div class="row">
+                    
+                        <nav id="wh_publication_toc" class="col-lg-3 col-md-3 col-sm-12 d-md-block d-none d-print-none" aria-label="Table of Contents Container">
+                            <div id="wh_publication_toc_content">
+		                        
+                            	<div class=" wh_publication_toc " data-tooltip-position="right"><span class="expand-button-action-labels"><span id="button-expand-action" role="button" aria-label="Expand"></span><span id="button-collapse-action" role="button" aria-label="Collapse"></span><span id="button-pending-action" role="button" aria-label="Pending"></span></span><ul role="tree" aria-label="Table of Contents"><li role="treeitem"><div data-tocid="Chunk1673076281-d2984e64" class="topicref" data-id="Chunk1673076281" data-state="leaf"><span role="button" class="wh-expand-btn"></span><div class="title"><a href="Chunk1673076281.html#Chunk1673076281" id="Chunk1673076281-d2984e64-link">Preface</a></div></div></li><li role="treeitem" aria-expanded="false"><div data-tocid="feg1685623649198-d2984e130" class="topicref newpage" data-id="feg1685623649198" data-state="not-ready"><span role="button" tabindex="0" aria-labelledby="button-expand-action feg1685623649198-d2984e130-link" class="wh-expand-btn"></span><div class="title"><a href="feg1685623649198.html" id="feg1685623649198-d2984e130-link">Additional functional information</a><div class="wh-tooltip"><p class="shortdesc">This chapter includes additional information for each module of the 		device.</p></div></div></div></li><li role="treeitem" aria-expanded="true"><div data-tocid="pyd1707810723834-d2984e862" class="topicref newpage" data-id="pyd1707810723834" data-state="expanded"><span role="button" tabindex="0" aria-labelledby="button-collapse-action pyd1707810723834-d2984e862-link" class="wh-expand-btn"></span><div class="title"><a href="pyd1707810723834.html" id="pyd1707810723834-d2984e862-link">SPI register specification</a><div class="wh-tooltip"><p class="shortdesc">SPI register specification includes nominal values. For settings options 		and exact values of timings, currents or thresholds refer to the device datasheet for 		further information.</p></div></div></div><ul role="group" class="navbar-nav nav-list"><li role="treeitem"><div data-tocid="ble1737120214684-d2984e873" class="topicref" data-id="ble1737120214684" data-state="leaf"><span role="button" class="wh-expand-btn"></span><div class="title"><a href="ble1737120214684.html" id="ble1737120214684-d2984e873-link">SPI bit field types</a></div></div></li><li role="treeitem"><div data-tocid="id_IFX_SP_TLE9186_140_generic_Register_CONFIG_SECURED_9-d2984e890" class="topicref newpage" data-id="id_IFX_SP_TLE9186_140_generic_Register_CONFIG_SECURED_9" data-state="leaf"><span role="button" class="wh-expand-btn"></span><div class="title"><a href="suk1763462501724.html" id="id_IFX_SP_TLE9186_140_generic_Register_CONFIG_SECURED_9-d2984e890-link">Power-up configuration protected register</a></div></div></li><li role="treeitem"><div data-tocid="id_IFX_SP_TLE9186_140_generic_Register_PWR_MOD_CFG_40-d2984e898" class="topicref newpage" data-id="id_IFX_SP_TLE9186_140_generic_Register_PWR_MOD_CFG_40" data-state="leaf"><span role="button" class="wh-expand-btn"></span><div class="title"><a href="pco1763462501724.html" id="id_IFX_SP_TLE9186_140_generic_Register_PWR_MOD_CFG_40-d2984e898-link">Mode control register</a></div></div></li><li role="treeitem"><div data-tocid="id_IFX_SP_TLE9186_140_generic_Register_WD_CFG_54-d2984e906" class="topicref newpage" data-id="id_IFX_SP_TLE9186_140_generic_Register_WD_CFG_54" data-state="leaf"><span role="button" class="wh-expand-btn"></span><div class="title"><a href="ygk1763462501724.html" id="id_IFX_SP_TLE9186_140_generic_Register_WD_CFG_54-d2984e906-link">Watchdog configuration register</a></div></div></li><li role="treeitem"><div data-tocid="id_IFX_SP_TLE9186_140_generic_Register_GEN_CFG1_78-d2984e914" class="topicref newpage" data-id="id_IFX_SP_TLE9186_140_generic_Register_GEN_CFG1_78" data-state="leaf"><span role="button" class="wh-expand-btn"></span><div class="title"><a href="emu1763462501724.html" id="id_IFX_SP_TLE9186_140_generic_Register_GEN_CFG1_78-d2984e914-link">General configuration register 1</a></div></div></li><li role="treeitem"><div data-tocid="id_IFX_SP_TLE9186_140_generic_Register_GEN_CFG2_126-d2984e922" class="topicref newpage" data-id="id_IFX_SP_TLE9186_140_generic_Register_GEN_CFG2_126" data-state="leaf"><span role="button" class="wh-expand-btn"></span><div class="title"><a href="jmo1763462501724.html" id="id_IFX_SP_TLE9186_140_generic_Register_GEN_CFG2_126-d2984e922-link">General configuration register 2</a></div></div></li><li role="treeitem"><div data-tocid="id_IFX_SP_TLE9186_140_generic_Register_GDRV_CFG1_218-d2984e930" class="topicref newpage" data-id="id_IFX_SP_TLE9186_140_generic_Register_GDRV_CFG1_218" data-state="leaf"><span role="button" class="wh-expand-btn"></span><div class="title"><a href="cve1763462501724.html" id="id_IFX_SP_TLE9186_140_generic_Register_GDRV_CFG1_218-d2984e930-link">Gate driver configuration register 1</a></div></div></li><li role="treeitem"><div data-tocid="id_IFX_SP_TLE9186_140_generic_Register_GDRV_CFG2_288-d2984e938" class="topicref newpage" data-id="id_IFX_SP_TLE9186_140_generic_Register_GDRV_CFG2_288" data-state="leaf"><span role="button" class="wh-expand-btn"></span><div class="title"><a href="dgg1763462501724.html" id="id_IFX_SP_TLE9186_140_generic_Register_GDRV_CFG2_288-d2984e938-link">Gate driver configuration register 2</a></div></div></li><li role="treeitem"><div data-tocid="id_IFX_SP_TLE9186_140_generic_Register_GDRV_CFG3_347-d2984e947" class="topicref newpage" data-id="id_IFX_SP_TLE9186_140_generic_Register_GDRV_CFG3_347" data-state="leaf"><span role="button" class="wh-expand-btn"></span><div class="title"><a href="dej1763462501724.html" id="id_IFX_SP_TLE9186_140_generic_Register_GDRV_CFG3_347-d2984e947-link">Gate driver configuration register 3</a></div></div></li><li role="treeitem"><div data-tocid="id_IFX_SP_TLE9186_140_generic_Register_TON_HS_490-d2984e955" class="topicref newpage" data-id="id_IFX_SP_TLE9186_140_generic_Register_TON_HS_490" data-state="leaf"><span role="button" class="wh-expand-btn"></span><div class="title"><a href="azh1763462501724.html" id="id_IFX_SP_TLE9186_140_generic_Register_TON_HS_490-d2984e955-link">Gate Driver Configuration register - TON_HS </a></div></div></li><li role="treeitem"><div data-tocid="id_IFX_SP_TLE9186_140_generic_Register_TON_LS_5747-d2984e963" class="topicref newpage" data-id="id_IFX_SP_TLE9186_140_generic_Register_TON_LS_5747" data-state="leaf"><span role="button" class="wh-expand-btn"></span><div class="title"><a href="wbt1763462501724.html" id="id_IFX_SP_TLE9186_140_generic_Register_TON_LS_5747-d2984e963-link">Gate Driver Configuration register - TON_LS </a></div></div></li><li role="treeitem"><div data-tocid="id_IFX_SP_TLE9186_140_generic_Register_TOFF_HS_5886-d2984e971" class="topicref newpage" data-id="id_IFX_SP_TLE9186_140_generic_Register_TOFF_HS_5886" data-state="leaf"><span role="button" class="wh-expand-btn"></span><div class="title"><a href="baf1763462501724.html" id="id_IFX_SP_TLE9186_140_generic_Register_TOFF_HS_5886-d2984e971-link">Gate Driver Configuration register - TOFF_HS </a></div></div></li><li role="treeitem"><div data-tocid="id_IFX_SP_TLE9186_140_generic_Register_TOFF_LS_6154-d2984e979" class="topicref newpage" data-id="id_IFX_SP_TLE9186_140_generic_Register_TOFF_LS_6154" data-state="leaf"><span role="button" class="wh-expand-btn"></span><div class="title"><a href="cvd1763462501724.html" id="id_IFX_SP_TLE9186_140_generic_Register_TOFF_LS_6154-d2984e979-link">Gate Driver Configuration register - TOFF_LS </a></div></div></li><li role="treeitem"><div data-tocid="id_IFX_SP_TLE9186_140_generic_Register_T3OFF_6288-d2984e987" class="topicref newpage" data-id="id_IFX_SP_TLE9186_140_generic_Register_T3OFF_6288" data-state="leaf"><span role="button" class="wh-expand-btn"></span><div class="title"><a href="dhv1763462501724.html" id="id_IFX_SP_TLE9186_140_generic_Register_T3OFF_6288-d2984e987-link">Gate Driver Configuration register - T3OFF</a></div></div></li><li role="treeitem"><div data-tocid="id_IFX_SP_TLE9186_140_generic_Register_ION_HS1_1404-d2984e995" class="topicref newpage" data-id="id_IFX_SP_TLE9186_140_generic_Register_ION_HS1_1404" data-state="leaf"><span role="button" class="wh-expand-btn"></span><div class="title"><a href="zyi1763462501724.html" id="id_IFX_SP_TLE9186_140_generic_Register_ION_HS1_1404-d2984e995-link">Gate driver Configuration register - ION_HS1</a></div></div></li><li role="treeitem"><div data-tocid="id_IFX_SP_TLE9186_140_generic_Register_ION_LS1_6423-d2984e1003" class="topicref newpage" data-id="id_IFX_SP_TLE9186_140_generic_Register_ION_LS1_6423" data-state="leaf"><span role="button" class="wh-expand-btn"></span><div class="title"><a href="fji1763462501724.html" id="id_IFX_SP_TLE9186_140_generic_Register_ION_LS1_6423-d2984e1003-link">Gate driver Configuration register - ION_LS1</a></div></div></li><li role="treeitem"><div data-tocid="id_IFX_SP_TLE9186_140_generic_Register_ION_HS2_6437-d2984e1011" class="topicref newpage" data-id="id_IFX_SP_TLE9186_140_generic_Register_ION_HS2_6437" data-state="leaf"><span role="button" class="wh-expand-btn"></span><div class="title"><a href="lpa1763462501724.html" id="id_IFX_SP_TLE9186_140_generic_Register_ION_HS2_6437-d2984e1011-link">Gate driver Configuration register - ION_HS2</a></div></div></li><li role="treeitem"><div data-tocid="id_IFX_SP_TLE9186_140_generic_Register_ION_LS2_6451-d2984e1019" class="topicref newpage" data-id="id_IFX_SP_TLE9186_140_generic_Register_ION_LS2_6451" data-state="leaf"><span role="button" class="wh-expand-btn"></span><div class="title"><a href="rxu1763462501724.html" id="id_IFX_SP_TLE9186_140_generic_Register_ION_LS2_6451-d2984e1019-link">Gate driver Configuration register - ION_LS2</a></div></div></li><li role="treeitem"><div data-tocid="id_IFX_SP_TLE9186_140_generic_Register_ION_HS3_6465-d2984e1027" class="topicref newpage" data-id="id_IFX_SP_TLE9186_140_generic_Register_ION_HS3_6465" data-state="leaf"><span role="button" class="wh-expand-btn"></span><div class="title"><a href="oxs1763462501724.html" id="id_IFX_SP_TLE9186_140_generic_Register_ION_HS3_6465-d2984e1027-link">Gate driver Configuration register - ION_HS3</a></div></div></li><li role="treeitem"><div data-tocid="id_IFX_SP_TLE9186_140_generic_Register_ION_LS3_6479-d2984e1036" class="topicref newpage" data-id="id_IFX_SP_TLE9186_140_generic_Register_ION_LS3_6479" data-state="leaf"><span role="button" class="wh-expand-btn"></span><div class="title"><a href="mea1763462501724.html" id="id_IFX_SP_TLE9186_140_generic_Register_ION_LS3_6479-d2984e1036-link">Gate driver Configuration register - ION_LS3</a></div></div></li><li role="treeitem"><div data-tocid="id_IFX_SP_TLE9186_140_generic_Register_I3ON_6498-d2984e1044" class="topicref newpage" data-id="id_IFX_SP_TLE9186_140_generic_Register_I3ON_6498" data-state="leaf"><span role="button" class="wh-expand-btn"></span><div class="title"><a href="bdc1763462501724.html" id="id_IFX_SP_TLE9186_140_generic_Register_I3ON_6498-d2984e1044-link">Gate driver Configuration register - I3ON</a></div></div></li><li role="treeitem"><div data-tocid="id_IFX_SP_TLE9186_140_generic_Register_ION_IOFF_DIDT_6518-d2984e1052" class="topicref newpage" data-id="id_IFX_SP_TLE9186_140_generic_Register_ION_IOFF_DIDT_6518" data-state="leaf"><span role="button" class="wh-expand-btn"></span><div class="title"><a href="ihd1763462501724.html" id="id_IFX_SP_TLE9186_140_generic_Register_ION_IOFF_DIDT_6518-d2984e1052-link">Gate driver Configuration register - ION_IOFF_DIDT</a></div></div></li><li role="treeitem"><div data-tocid="id_IFX_SP_TLE9186_140_generic_Register_IOFF_HS1_6528-d2984e1060" class="topicref newpage" data-id="id_IFX_SP_TLE9186_140_generic_Register_IOFF_HS1_6528" data-state="leaf"><span role="button" class="wh-expand-btn"></span><div class="title"><a href="htu1763462501724.html" id="id_IFX_SP_TLE9186_140_generic_Register_IOFF_HS1_6528-d2984e1060-link">Gate driver Configuration register - IOFF_HS1</a></div></div></li><li role="treeitem" class="active"><div data-tocid="id_IFX_SP_TLE9186_140_generic_Register_IOFF_LS1_6542-d2984e1068" class="topicref newpage" data-id="id_IFX_SP_TLE9186_140_generic_Register_IOFF_LS1_6542" data-state="leaf"><span role="button" class="wh-expand-btn"></span><div class="title"><a href="uda1763462501724.html" id="id_IFX_SP_TLE9186_140_generic_Register_IOFF_LS1_6542-d2984e1068-link">Gate driver Configuration register - IOFF_LS1</a></div></div></li><li role="treeitem"><div data-tocid="id_IFX_SP_TLE9186_140_generic_Register_IOFF_HS2_6556-d2984e1076" class="topicref newpage" data-id="id_IFX_SP_TLE9186_140_generic_Register_IOFF_HS2_6556" data-state="leaf"><span role="button" class="wh-expand-btn"></span><div class="title"><a href="rph1763462501724.html" id="id_IFX_SP_TLE9186_140_generic_Register_IOFF_HS2_6556-d2984e1076-link">Gate driver Configuration register - IOFF_HS2</a></div></div></li><li role="treeitem"><div data-tocid="id_IFX_SP_TLE9186_140_generic_Register_IOFF_LS2_6566-d2984e1084" class="topicref newpage" data-id="id_IFX_SP_TLE9186_140_generic_Register_IOFF_LS2_6566" data-state="leaf"><span role="button" class="wh-expand-btn"></span><div class="title"><a href="ivc1763462501724.html" id="id_IFX_SP_TLE9186_140_generic_Register_IOFF_LS2_6566-d2984e1084-link">Gate driver Configuration register - IOFF_LS2</a></div></div></li><li role="treeitem"><div data-tocid="id_IFX_SP_TLE9186_140_generic_Register_IOFF_HS3_6576-d2984e1092" class="topicref newpage" data-id="id_IFX_SP_TLE9186_140_generic_Register_IOFF_HS3_6576" data-state="leaf"><span role="button" class="wh-expand-btn"></span><div class="title"><a href="eza1763462501724.html" id="id_IFX_SP_TLE9186_140_generic_Register_IOFF_HS3_6576-d2984e1092-link">Gate driver Configuration register - IOFF_HS3</a></div></div></li><li role="treeitem"><div data-tocid="id_IFX_SP_TLE9186_140_generic_Register_IOFF_LS3_6586-d2984e1100" class="topicref newpage" data-id="id_IFX_SP_TLE9186_140_generic_Register_IOFF_LS3_6586" data-state="leaf"><span role="button" class="wh-expand-btn"></span><div class="title"><a href="kll1763462501724.html" id="id_IFX_SP_TLE9186_140_generic_Register_IOFF_LS3_6586-d2984e1100-link">Gate driver Configuration register - IOFF_LS3</a></div></div></li><li role="treeitem"><div data-tocid="id_IFX_SP_TLE9186_140_generic_Register_CSA_CFG_4544-d2984e1108" class="topicref newpage" data-id="id_IFX_SP_TLE9186_140_generic_Register_CSA_CFG_4544" data-state="leaf"><span role="button" class="wh-expand-btn"></span><div class="title"><a href="ahh1763462501724.html" id="id_IFX_SP_TLE9186_140_generic_Register_CSA_CFG_4544-d2984e1108-link">Current sense amplifier configuration register</a></div></div></li><li role="treeitem"><div data-tocid="id_IFX_SP_TLE9186_140_generic_Register_FAILURE_CFG_4637-d2984e1116" class="topicref newpage" data-id="id_IFX_SP_TLE9186_140_generic_Register_FAILURE_CFG_4637" data-state="leaf"><span role="button" class="wh-expand-btn"></span><div class="title"><a href="hoz1763462501724.html" id="id_IFX_SP_TLE9186_140_generic_Register_FAILURE_CFG_4637-d2984e1116-link">Failure reaction configuration register 1</a></div></div></li><li role="treeitem"><div data-tocid="id_IFX_SP_TLE9186_140_generic_Register_SELF_TEST_CFG_4757-d2984e1125" class="topicref newpage" data-id="id_IFX_SP_TLE9186_140_generic_Register_SELF_TEST_CFG_4757" data-state="leaf"><span role="button" class="wh-expand-btn"></span><div class="title"><a href="nau1763462501724.html" id="id_IFX_SP_TLE9186_140_generic_Register_SELF_TEST_CFG_4757-d2984e1125-link">Self-test configuration register </a></div></div></li><li role="treeitem"><div data-tocid="id_IFX_SP_TLE9186_140_generic_Register_SUP_STAT_4826-d2984e1133" class="topicref newpage" data-id="id_IFX_SP_TLE9186_140_generic_Register_SUP_STAT_4826" data-state="leaf"><span role="button" class="wh-expand-btn"></span><div class="title"><a href="sdt1763462501724.html" id="id_IFX_SP_TLE9186_140_generic_Register_SUP_STAT_4826-d2984e1133-link">Supply monitoring status register</a></div></div></li><li role="treeitem"><div data-tocid="id_IFX_SP_TLE9186_140_generic_Register_SPI_STAT_4876-d2984e1141" class="topicref newpage" data-id="id_IFX_SP_TLE9186_140_generic_Register_SPI_STAT_4876" data-state="leaf"><span role="button" class="wh-expand-btn"></span><div class="title"><a href="cyw1763462501724.html" id="id_IFX_SP_TLE9186_140_generic_Register_SPI_STAT_4876-d2984e1141-link">SPI status register (SPI and WD monitoring)</a></div></div></li><li role="treeitem"><div data-tocid="id_IFX_SP_TLE9186_140_generic_Register_DEV_STAT1_4928-d2984e1149" class="topicref newpage" data-id="id_IFX_SP_TLE9186_140_generic_Register_DEV_STAT1_4928" data-state="leaf"><span role="button" class="wh-expand-btn"></span><div class="title"><a href="rba1763462501724.html" id="id_IFX_SP_TLE9186_140_generic_Register_DEV_STAT1_4928-d2984e1149-link">Device status register 1: Operation mode and digital input pins levels</a></div></div></li><li role="treeitem"><div data-tocid="id_IFX_SP_TLE9186_140_generic_Register_DEV_STAT2_4977-d2984e1157" class="topicref newpage" data-id="id_IFX_SP_TLE9186_140_generic_Register_DEV_STAT2_4977" data-state="leaf"><span role="button" class="wh-expand-btn"></span><div class="title"><a href="jay1763462501724.html" id="id_IFX_SP_TLE9186_140_generic_Register_DEV_STAT2_4977-d2984e1157-link">Device status register 2: Input pattern violation, ERR_N, CSA, TSD monitoring</a></div></div></li><li role="treeitem"><div data-tocid="id_IFX_SP_TLE9186_140_generic_Register_LF_STAT_5025-d2984e1165" class="topicref newpage" data-id="id_IFX_SP_TLE9186_140_generic_Register_LF_STAT_5025" data-state="leaf"><span role="button" class="wh-expand-btn"></span><div class="title"><a href="ssl1763462501724.html" id="id_IFX_SP_TLE9186_140_generic_Register_LF_STAT_5025-d2984e1165-link">Latent faults and self-tests status register: internal faults, self-tests results</a></div></div></li><li role="treeitem"><div data-tocid="id_IFX_SP_TLE9186_140_generic_Register_SH_LEVEL_STAT_5067-d2984e1173" class="topicref newpage" data-id="id_IFX_SP_TLE9186_140_generic_Register_SH_LEVEL_STAT_5067" data-state="leaf"><span role="button" class="wh-expand-btn"></span><div class="title"><a href="byu1763462501724.html" id="id_IFX_SP_TLE9186_140_generic_Register_SH_LEVEL_STAT_5067-d2984e1173-link">Phase pins monitoring</a></div></div></li><li role="treeitem"><div data-tocid="id_IFX_SP_TLE9186_140_generic_Register_BD_STAT_5108-d2984e1181" class="topicref newpage" data-id="id_IFX_SP_TLE9186_140_generic_Register_BD_STAT_5108" data-state="leaf"><span role="button" class="wh-expand-btn"></span><div class="title"><a href="mfl1763462501724.html" id="id_IFX_SP_TLE9186_140_generic_Register_BD_STAT_5108-d2984e1181-link">HS &amp; LS Gate Drivers monitoring </a></div></div></li><li role="treeitem"><div data-tocid="id_IFX_SP_TLE9186_140_generic_Register_WD_CLK_CNT_5206-d2984e1189" class="topicref newpage" data-id="id_IFX_SP_TLE9186_140_generic_Register_WD_CLK_CNT_5206" data-state="leaf"><span role="button" class="wh-expand-btn"></span><div class="title"><a href="ojr1763462501724.html" id="id_IFX_SP_TLE9186_140_generic_Register_WD_CLK_CNT_5206-d2984e1189-link">Watchdog clock counter</a></div></div></li><li role="treeitem"><div data-tocid="id_IFX_SP_TLE9186_140_generic_Register_PHASE1_CNT_5211-d2984e1197" class="topicref newpage" data-id="id_IFX_SP_TLE9186_140_generic_Register_PHASE1_CNT_5211" data-state="leaf"><span role="button" class="wh-expand-btn"></span><div class="title"><a href="aba1763462501724.html" id="id_IFX_SP_TLE9186_140_generic_Register_PHASE1_CNT_5211-d2984e1197-link">Phase 1 high time counter</a></div></div></li><li role="treeitem"><div data-tocid="id_IFX_SP_TLE9186_140_generic_Register_PHASE2_CNT_5225-d2984e1205" class="topicref newpage" data-id="id_IFX_SP_TLE9186_140_generic_Register_PHASE2_CNT_5225" data-state="leaf"><span role="button" class="wh-expand-btn"></span><div class="title"><a href="bqt1763462501724.html" id="id_IFX_SP_TLE9186_140_generic_Register_PHASE2_CNT_5225-d2984e1205-link">Phase 2 high time counter</a></div></div></li><li role="treeitem"><div data-tocid="id_IFX_SP_TLE9186_140_generic_Register_PHASE3_CNT_5239-d2984e1214" class="topicref newpage" data-id="id_IFX_SP_TLE9186_140_generic_Register_PHASE3_CNT_5239" data-state="leaf"><span role="button" class="wh-expand-btn"></span><div class="title"><a href="way1763462501724.html" id="id_IFX_SP_TLE9186_140_generic_Register_PHASE3_CNT_5239-d2984e1214-link">Phase 3 high time counter</a></div></div></li><li role="treeitem"><div data-tocid="id_IFX_SP_TLE9186_140_generic_Register_TDON_TDOFF_HS1_5322-d2984e1222" class="topicref newpage" data-id="id_IFX_SP_TLE9186_140_generic_Register_TDON_TDOFF_HS1_5322" data-state="leaf"><span role="button" class="wh-expand-btn"></span><div class="title"><a href="sui1763462501724.html" id="id_IFX_SP_TLE9186_140_generic_Register_TDON_TDOFF_HS1_5322-d2984e1222-link">Effective MOSFET turn-on/off delay time HS1</a></div></div></li><li role="treeitem"><div data-tocid="id_IFX_SP_TLE9186_140_generic_Register_TDON_TDOFF_LS1_5330-d2984e1230" class="topicref newpage" data-id="id_IFX_SP_TLE9186_140_generic_Register_TDON_TDOFF_LS1_5330" data-state="leaf"><span role="button" class="wh-expand-btn"></span><div class="title"><a href="och1763462501724.html" id="id_IFX_SP_TLE9186_140_generic_Register_TDON_TDOFF_LS1_5330-d2984e1230-link">Effective MOSFET turn-on/off delay time LS1</a></div></div></li><li role="treeitem"><div data-tocid="id_IFX_SP_TLE9186_140_generic_Register_TDON_TDOFF_HS2_5338-d2984e1238" class="topicref newpage" data-id="id_IFX_SP_TLE9186_140_generic_Register_TDON_TDOFF_HS2_5338" data-state="leaf"><span role="button" class="wh-expand-btn"></span><div class="title"><a href="vdr1763462501724.html" id="id_IFX_SP_TLE9186_140_generic_Register_TDON_TDOFF_HS2_5338-d2984e1238-link">Effective MOSFET turn-on/off delay time HS2</a></div></div></li><li role="treeitem"><div data-tocid="id_IFX_SP_TLE9186_140_generic_Register_TDON_TDOFF_LS2_5346-d2984e1246" class="topicref newpage" data-id="id_IFX_SP_TLE9186_140_generic_Register_TDON_TDOFF_LS2_5346" data-state="leaf"><span role="button" class="wh-expand-btn"></span><div class="title"><a href="ndt1763462501724.html" id="id_IFX_SP_TLE9186_140_generic_Register_TDON_TDOFF_LS2_5346-d2984e1246-link">Effective MOSFET turn-on/off delay time LS2</a></div></div></li><li role="treeitem"><div data-tocid="id_IFX_SP_TLE9186_140_generic_Register_TDON_TDOFF_HS3_5354-d2984e1254" class="topicref newpage" data-id="id_IFX_SP_TLE9186_140_generic_Register_TDON_TDOFF_HS3_5354" data-state="leaf"><span role="button" class="wh-expand-btn"></span><div class="title"><a href="lvl1763462501724.html" id="id_IFX_SP_TLE9186_140_generic_Register_TDON_TDOFF_HS3_5354-d2984e1254-link">Effective MOSFET turn-on/off delay time HS3</a></div></div></li><li role="treeitem"><div data-tocid="id_IFX_SP_TLE9186_140_generic_Register_TDON_TDOFF_LS3_5362-d2984e1262" class="topicref newpage" data-id="id_IFX_SP_TLE9186_140_generic_Register_TDON_TDOFF_LS3_5362" data-state="leaf"><span role="button" class="wh-expand-btn"></span><div class="title"><a href="ezh1763462501724.html" id="id_IFX_SP_TLE9186_140_generic_Register_TDON_TDOFF_LS3_5362-d2984e1262-link">Effective MOSFET turn-on/off delay time LS3</a></div></div></li><li role="treeitem"><div data-tocid="id_IFX_SP_TLE9186_140_generic_Register_TSLEW_ON_OFF_HS1_5370-d2984e1270" class="topicref newpage" data-id="id_IFX_SP_TLE9186_140_generic_Register_TSLEW_ON_OFF_HS1_5370" data-state="leaf"><span role="button" class="wh-expand-btn"></span><div class="title"><a href="ely1763462501724.html" id="id_IFX_SP_TLE9186_140_generic_Register_TSLEW_ON_OFF_HS1_5370-d2984e1270-link">Effective MOSFET slew rate time HS1</a></div></div></li><li role="treeitem"><div data-tocid="id_IFX_SP_TLE9186_140_generic_Register_TSLEW_ON_OFF_LS1_5378-d2984e1278" class="topicref newpage" data-id="id_IFX_SP_TLE9186_140_generic_Register_TSLEW_ON_OFF_LS1_5378" data-state="leaf"><span role="button" class="wh-expand-btn"></span><div class="title"><a href="daw1763462501724.html" id="id_IFX_SP_TLE9186_140_generic_Register_TSLEW_ON_OFF_LS1_5378-d2984e1278-link">Effective MOSFET slew rate time LS1</a></div></div></li><li role="treeitem"><div data-tocid="id_IFX_SP_TLE9186_140_generic_Register_TSLEW_ON_OFF_HS2_5386-d2984e1286" class="topicref newpage" data-id="id_IFX_SP_TLE9186_140_generic_Register_TSLEW_ON_OFF_HS2_5386" data-state="leaf"><span role="button" class="wh-expand-btn"></span><div class="title"><a href="iff1763462501724.html" id="id_IFX_SP_TLE9186_140_generic_Register_TSLEW_ON_OFF_HS2_5386-d2984e1286-link">Effective MOSFET slew rate time HS2</a></div></div></li><li role="treeitem"><div data-tocid="id_IFX_SP_TLE9186_140_generic_Register_TSLEW_ON_OFF_LS2_5394-d2984e1294" class="topicref newpage" data-id="id_IFX_SP_TLE9186_140_generic_Register_TSLEW_ON_OFF_LS2_5394" data-state="leaf"><span role="button" class="wh-expand-btn"></span><div class="title"><a href="haj1763462501724.html" id="id_IFX_SP_TLE9186_140_generic_Register_TSLEW_ON_OFF_LS2_5394-d2984e1294-link">Effective MOSFET slew rate time LS2</a></div></div></li><li role="treeitem"><div data-tocid="id_IFX_SP_TLE9186_140_generic_Register_TSLEW_ON_OFF_HS3_5402-d2984e1303" class="topicref newpage" data-id="id_IFX_SP_TLE9186_140_generic_Register_TSLEW_ON_OFF_HS3_5402" data-state="leaf"><span role="button" class="wh-expand-btn"></span><div class="title"><a href="nms1763462501724.html" id="id_IFX_SP_TLE9186_140_generic_Register_TSLEW_ON_OFF_HS3_5402-d2984e1303-link">Effective MOSFET slew rate time HS3</a></div></div></li><li role="treeitem"><div data-tocid="id_IFX_SP_TLE9186_140_generic_Register_TSLEW_ON_OFF_LS3_5410-d2984e1311" class="topicref newpage" data-id="id_IFX_SP_TLE9186_140_generic_Register_TSLEW_ON_OFF_LS3_5410" data-state="leaf"><span role="button" class="wh-expand-btn"></span><div class="title"><a href="qlg1763462501724.html" id="id_IFX_SP_TLE9186_140_generic_Register_TSLEW_ON_OFF_LS3_5410-d2984e1311-link">Effective MOSFET slew rate time LS3</a></div></div></li></ul></li><li role="treeitem" aria-expanded="false"><div data-tocid="jve1685623663004-d2984e1906" class="topicref newpage" data-id="jve1685623663004" data-state="not-ready"><span role="button" tabindex="0" aria-labelledby="button-expand-action jve1685623663004-d2984e1906-link" class="wh-expand-btn"></span><div class="title"><a href="jve1685623663004.html" id="jve1685623663004-d2984e1906-link">Application information (additional information)</a><div class="wh-tooltip"><p class="shortdesc">This chapter includes additional information on external circuitry needed 		for the device. An example application diagram with all required and optional external 		components is shown below.</p></div></div></div></li><li role="treeitem"><div data-tocid="mje1685607723572-d2984e1949" class="topicref RevisionHistory newpage" data-id="mje1685607723572" data-state="leaf"><span role="button" class="wh-expand-btn"></span><div class="title"><a href="mje1685607723572.html" id="mje1685607723572-d2984e1949-link">Revision history</a></div></div></li><li role="treeitem"><div data-tocid="trademarks-d2984e1957" class="topicref Trademarks" data-id="trademarks" data-state="leaf"><span role="button" class="wh-expand-btn"></span><div class="title"><a href="trademarks.html" id="trademarks-d2984e1957-link">Disclaimer</a></div></div></li></ul></div>
+		                        
+                            </div>
+                        </nav>
+                    
+                    
+                    <div class="col-lg-9 col-md-9 col-sm-12" id="wh_topic_body">
+                        <button id="wh_close_publication_toc_button" class="close-toc-button d-none" aria-label="Toggle publishing table of content" aria-controls="wh_publication_toc" aria-expanded="true">
+                            <span class="close-toc-icon-container">
+                                <span class="close-toc-icon"></span>     
+                            </span>
+                        </button>
+                        
+                        
+                        <div class=" wh_topic_content body "><main role="main"><article role="article" aria-labelledby="ariaid-title1">
+   <h1 class="- topic/title title topictitle1" id="ariaid-title1">Gate driver Configuration register - IOFF_LS1</h1>
+   
+   <div class="- topic/body reference/refbody body refbody">
+      <section class="- topic/section section RegisterDescription"></section>
+      <section class="- topic/section section RegisterAbout">
+         <div class="table-container"><table class="- topic/table table RegisterAbout frame-none" data-cols="3"><caption><span class="- topic/desc desc tabledesc">
+               
+               
+            </span></caption><colgroup><col style="width:50%"/><col style="width:30%"/><col style="width:20%"/></colgroup><tbody class="- topic/tbody tbody">
+                  <tr class="- topic/row">
+                     <td class="- topic/entry entry align-left colsep-0 rowsep-0">
+                        <span class="- topic/ph ph" id="id_IFX_SP_TLE9186_140_generic_Register_IOFF_LS1_6542__TLE9186_IOFF_LS1_6542">
+                           <span class="- topic/ph ph regShortName" id="id_IFX_SP_TLE9186_140_generic_Register_IOFF_LS1_6542__shortname">IOFF_LS1</span>
+                        </span>
+                     </td>
+                     <td class="- topic/entry entry align-right colsep-0 rowsep-0">
+                        <span class="- topic/ph ph" id="id_IFX_SP_TLE9186_140_generic_Register_IOFF_LS1_6542__address">Offset address:</span>
+                     </td>
+                     <td class="- topic/entry entry align-right colsep-0 rowsep-0">
+                        <span class="+ topic/ph ifx-d/ifx-hex ph ifx-hex">18</span>
+                     </td>
+                  </tr>
+                  <tr class="- topic/row">
+                     <td class="- topic/entry entry align-left colsep-0 rowsep-0">Gate driver Configuration register - IOFF_LS1</td>
+                     <td class="- topic/entry entry align-right colsep-0 rowsep-0">DefaultReset value:</td>
+                     <td class="- topic/entry entry align-right colsep-0 rowsep-0">
+                        <span class="+ topic/ph ifx-d/ifx-hex ph ifx-hex">2020</span>
+                     </td>
+                  </tr>
+               </tbody></table></div>
+      </section>
+      <section class="- topic/section section RegisterImage">
+         <div class="table-container"><table class="- topic/table table RegisterImage frame-none" data-cols="16"><caption></caption><colgroup><col style="width:6.25%"/><col style="width:6.25%"/><col style="width:6.25%"/><col style="width:6.25%"/><col style="width:6.25%"/><col style="width:6.25%"/><col style="width:6.25%"/><col style="width:6.25%"/><col style="width:6.25%"/><col style="width:6.25%"/><col style="width:6.25%"/><col style="width:6.25%"/><col style="width:6.25%"/><col style="width:6.25%"/><col style="width:6.25%"/><col style="width:6.25%"/></colgroup><tbody class="- topic/tbody tbody">
+                  <tr class="- topic/row 8ptfont rowsep-1">
+                     <td class="- topic/entry entry align-center colsep-0 rowsep-1 valign-bottom">
+                        <sub class="+ topic/ph hi-d/sub ph sub">15</sub>
+                     </td>
+                     <td class="- topic/entry entry align-center colsep-0 rowsep-1 valign-bottom">
+                        <sub class="+ topic/ph hi-d/sub ph sub">14</sub>
+                     </td>
+                     <td class="- topic/entry entry align-center colsep-0 rowsep-1 valign-bottom">
+                        <sub class="+ topic/ph hi-d/sub ph sub">13</sub>
+                     </td>
+                     <td class="- topic/entry entry align-center colsep-0 rowsep-1 valign-bottom">
+                        <sub class="+ topic/ph hi-d/sub ph sub">12</sub>
+                     </td>
+                     <td class="- topic/entry entry align-center colsep-0 rowsep-1 valign-bottom">
+                        <sub class="+ topic/ph hi-d/sub ph sub">11</sub>
+                     </td>
+                     <td class="- topic/entry entry align-center colsep-0 rowsep-1 valign-bottom">
+                        <sub class="+ topic/ph hi-d/sub ph sub">10</sub>
+                     </td>
+                     <td class="- topic/entry entry align-center colsep-0 rowsep-1 valign-bottom">
+                        <sub class="+ topic/ph hi-d/sub ph sub">9</sub>
+                     </td>
+                     <td class="- topic/entry entry align-center colsep-0 rowsep-1 valign-bottom">
+                        <sub class="+ topic/ph hi-d/sub ph sub">8</sub>
+                     </td>
+                     <td class="- topic/entry entry align-center colsep-0 rowsep-1 valign-bottom">
+                        <sub class="+ topic/ph hi-d/sub ph sub">7</sub>
+                     </td>
+                     <td class="- topic/entry entry align-center colsep-0 rowsep-1 valign-bottom">
+                        <sub class="+ topic/ph hi-d/sub ph sub">6</sub>
+                     </td>
+                     <td class="- topic/entry entry align-center colsep-0 rowsep-1 valign-bottom">
+                        <sub class="+ topic/ph hi-d/sub ph sub">5</sub>
+                     </td>
+                     <td class="- topic/entry entry align-center colsep-0 rowsep-1 valign-bottom">
+                        <sub class="+ topic/ph hi-d/sub ph sub">4</sub>
+                     </td>
+                     <td class="- topic/entry entry align-center colsep-0 rowsep-1 valign-bottom">
+                        <sub class="+ topic/ph hi-d/sub ph sub">3</sub>
+                     </td>
+                     <td class="- topic/entry entry align-center colsep-0 rowsep-1 valign-bottom">
+                        <sub class="+ topic/ph hi-d/sub ph sub">2</sub>
+                     </td>
+                     <td class="- topic/entry entry align-center colsep-0 rowsep-1 valign-bottom">
+                        <sub class="+ topic/ph hi-d/sub ph sub">1</sub>
+                     </td>
+                     <td class="- topic/entry entry align-center colsep-0 rowsep-1 valign-bottom">
+                        <sub class="+ topic/ph hi-d/sub ph sub">0</sub>
+                     </td>
+                  </tr>
+                  <tr class="- topic/row RegImage_border rowsep-1">
+                     <td class="- topic/entry entry align-center colsep-1 rowsep-1 valign-middle" colspan="2">
+                        
+                           IOFF_LS_BNK
+                        
+                     </td>
+                     <td class="- topic/entry entry align-center colsep-1 rowsep-1 valign-middle" colspan="6">
+                        
+                           I1OFF_LS1
+                        
+                     </td>
+                     <td class="- topic/entry entry align-center colsep-1 rowsep-1 valign-middle" colspan="2">
+                        0
+                     </td>
+                     <td class="- topic/entry entry align-center colsep-0 rowsep-1 valign-middle" colspan="6">
+                        
+                           I2OFF_LS1
+                        
+                     </td>
+                  </tr>
+                  <tr class="- topic/row 8ptfont rowsep-0">
+                     <td class="- topic/entry entry align-center colsep-0 rowsep-0 valign-top" colspan="2">rw</td>
+                     <td class="- topic/entry entry align-center colsep-0 rowsep-0 valign-top" colspan="6">rw</td>
+                     <td class="- topic/entry entry align-center colsep-0 rowsep-0 valign-top" colspan="2">res</td>
+                     <td class="- topic/entry entry align-center colsep-0 rowsep-0 valign-top" colspan="6">rw</td>
+                  </tr>
+               </tbody></table></div>
+      </section>
+      <section class="- topic/section section RegisterDefinition">
+         <div class="table-container"><table class="- topic/table table RegisterDefinition" data-cols="4"><caption></caption><colgroup><col style="width:14.099999999999998%"/><col style="width:11.8%"/><col style="width:8.6%"/><col style="width:65.5%"/></colgroup><thead class="- topic/thead thead">
+                  <tr class="- topic/row rowsep-1" id="id_IFX_SP_TLE9186_140_generic_Register_IOFF_LS1_6542__d680e244">
+                     <th class="- topic/entry entry align-left colsep-1 rowsep-1" id="id_IFX_SP_TLE9186_140_generic_Register_IOFF_LS1_6542__d680e244__entry__1">Field</th>
+                     <th class="- topic/entry entry align-left colsep-1 rowsep-1" id="id_IFX_SP_TLE9186_140_generic_Register_IOFF_LS1_6542__d680e244__entry__2">Bits</th>
+                     <th class="- topic/entry entry align-left colsep-1 rowsep-1" id="id_IFX_SP_TLE9186_140_generic_Register_IOFF_LS1_6542__d680e244__entry__3">Type</th>
+                     <th class="- topic/entry entry align-left colsep-0 rowsep-1" id="id_IFX_SP_TLE9186_140_generic_Register_IOFF_LS1_6542__d680e244__entry__4">Description</th>
+                  </tr>
+               </thead><tbody class="- topic/tbody tbody">
+                  <tr class="- topic/row" id="id_IFX_SP_TLE9186_140_generic_Register_IOFF_LS1_6542__d680e263">
+                     <td class="- topic/entry entry colsep-1 rowsep-1" headers="id_IFX_SP_TLE9186_140_generic_Register_IOFF_LS1_6542__d680e244__entry__1">
+                        <span class="- topic/ph ph" id="id_IFX_SP_TLE9186_140_generic_Register_IOFF_LS1_6542__TLE9186_IOFF_LS1.I2OFF_LS1_6544">
+                           <span class="- topic/ph ph" id="id_IFX_SP_TLE9186_140_generic_Register_IOFF_LS1_6542__I2OFF_LS1">I2OFF_LS1</span>
+                        </span>
+                     </td>
+                     <td class="- topic/entry entry colsep-1 rowsep-1" headers="id_IFX_SP_TLE9186_140_generic_Register_IOFF_LS1_6542__d680e244__entry__2">5:0</td>
+                     <td class="- topic/entry entry colsep-1 rowsep-1" headers="id_IFX_SP_TLE9186_140_generic_Register_IOFF_LS1_6542__d680e244__entry__3">rw</td>
+                     <td class="- topic/entry entry colsep-0 rowsep-1" headers="id_IFX_SP_TLE9186_140_generic_Register_IOFF_LS1_6542__d680e244__entry__4">
+                        <p class="- topic/p p FieldTitle">LS1 Gate Driver discharge current setting</p>
+                        <p class="- topic/p p">
+                           <span class="- topic/ph ph constantValue" id="id_IFX_SP_TLE9186_140_generic_Register_IOFF_LS1_6542__TLE9186_8042">
+                              <span class="+ topic/ph ifx-d/ifx-hex ph ifx-hex">00</span>
+                           </span>
+                           <span class="- topic/ph ph constantText">0.5mA (GDRV_RNG = 0), 1mA (GDRV_RNG = 1)</span>
+                        </p>
+                        <p class="- topic/p p">
+                           <span class="- topic/ph ph constantValue" id="id_IFX_SP_TLE9186_140_generic_Register_IOFF_LS1_6542__TLE9186_8043">
+                              <span class="+ topic/ph ifx-d/ifx-hex ph ifx-hex">01</span>
+                           </span>
+                           <span class="- topic/ph ph constantText">0.7mA (GDRV_RNG = 0), 1.4mA (GDRV_RNG = 1)</span>
+                        </p>
+                        <p class="- topic/p p">
+                           <span class="- topic/ph ph constantValue" id="id_IFX_SP_TLE9186_140_generic_Register_IOFF_LS1_6542__TLE9186_8044">
+                              <span class="+ topic/ph ifx-d/ifx-hex ph ifx-hex">02</span>
+                           </span>
+                           <span class="- topic/ph ph constantText">0.8mA (GDRV_RNG = 0), 1.8mA (GDRV_RNG = 1)</span>
+                        </p>
+                        <p class="- topic/p p">
+                           <span class="- topic/ph ph constantValue" id="id_IFX_SP_TLE9186_140_generic_Register_IOFF_LS1_6542__TLE9186_8045">
+                              <span class="+ topic/ph ifx-d/ifx-hex ph ifx-hex">03</span>
+                           </span>
+                           <span class="- topic/ph ph constantText">1.1mA (GDRV_RNG = 0), 2.3mA (GDRV_RNG = 1)</span>
+                        </p>
+                        <p class="- topic/p p">
+                           <span class="- topic/ph ph constantValue" id="id_IFX_SP_TLE9186_140_generic_Register_IOFF_LS1_6542__TLE9186_8046">
+                              <span class="+ topic/ph ifx-d/ifx-hex ph ifx-hex">04</span>
+                           </span>
+                           <span class="- topic/ph ph constantText">1.3mA (GDRV_RNG = 0), 2.9mA (GDRV_RNG = 1)</span>
+                        </p>
+                        <p class="- topic/p p">
+                           <span class="- topic/ph ph constantValue" id="id_IFX_SP_TLE9186_140_generic_Register_IOFF_LS1_6542__TLE9186_8047">
+                              <span class="+ topic/ph ifx-d/ifx-hex ph ifx-hex">05</span>
+                           </span>
+                           <span class="- topic/ph ph constantText">1.6mA (GDRV_RNG = 0), 3.5mA (GDRV_RNG = 1)</span>
+                        </p>
+                        <p class="- topic/p p">
+                           <span class="- topic/ph ph constantValue" id="id_IFX_SP_TLE9186_140_generic_Register_IOFF_LS1_6542__TLE9186_8048">
+                              <span class="+ topic/ph ifx-d/ifx-hex ph ifx-hex">06</span>
+                           </span>
+                           <span class="- topic/ph ph constantText">2mA (GDRV_RNG = 0), 4.3mA (GDRV_RNG = 1)</span>
+                        </p>
+                        <p class="- topic/p p">
+                           <span class="- topic/ph ph constantValue" id="id_IFX_SP_TLE9186_140_generic_Register_IOFF_LS1_6542__TLE9186_8049">
+                              <span class="+ topic/ph ifx-d/ifx-hex ph ifx-hex">07</span>
+                           </span>
+                           <span class="- topic/ph ph constantText">2.4mA (GDRV_RNG = 0), 5.2mA (GDRV_RNG = 1)</span>
+                        </p>
+                        <p class="- topic/p p">
+                           <span class="- topic/ph ph constantValue" id="id_IFX_SP_TLE9186_140_generic_Register_IOFF_LS1_6542__TLE9186_8050">
+                              <span class="+ topic/ph ifx-d/ifx-hex ph ifx-hex">08</span>
+                           </span>
+                           <span class="- topic/ph ph constantText">2.8mA (GDRV_RNG = 0), 6.2mA (GDRV_RNG = 1)</span>
+                        </p>
+                        <p class="- topic/p p">
+                           <span class="- topic/ph ph constantValue" id="id_IFX_SP_TLE9186_140_generic_Register_IOFF_LS1_6542__TLE9186_8051">
+                              <span class="+ topic/ph ifx-d/ifx-hex ph ifx-hex">09</span>
+                           </span>
+                           <span class="- topic/ph ph constantText">3.4mA (GDRV_RNG = 0), 7.3mA (GDRV_RNG = 1)</span>
+                        </p>
+                        <p class="- topic/p p">
+                           <span class="- topic/ph ph constantValue" id="id_IFX_SP_TLE9186_140_generic_Register_IOFF_LS1_6542__TLE9186_8052">
+                              <span class="+ topic/ph ifx-d/ifx-hex ph ifx-hex">0A</span>
+                           </span>
+                           <span class="- topic/ph ph constantText">3.9mA (GDRV_RNG = 0), 8.5mA (GDRV_RNG = 1)</span>
+                        </p>
+                        <p class="- topic/p p">
+                           <span class="- topic/ph ph constantValue" id="id_IFX_SP_TLE9186_140_generic_Register_IOFF_LS1_6542__TLE9186_8053">
+                              <span class="+ topic/ph ifx-d/ifx-hex ph ifx-hex">0B</span>
+                           </span>
+                           <span class="- topic/ph ph constantText">4.5mA (GDRV_RNG = 0), 9.8mA (GDRV_RNG = 1)</span>
+                        </p>
+                        <p class="- topic/p p">
+                           <span class="- topic/ph ph constantValue" id="id_IFX_SP_TLE9186_140_generic_Register_IOFF_LS1_6542__TLE9186_8054">
+                              <span class="+ topic/ph ifx-d/ifx-hex ph ifx-hex">0C</span>
+                           </span>
+                           <span class="- topic/ph ph constantText">5.3mA (GDRV_RNG = 0), 11.1mA (GDRV_RNG = 1)</span>
+                        </p>
+                        <p class="- topic/p p">
+                           <span class="- topic/ph ph constantValue" id="id_IFX_SP_TLE9186_140_generic_Register_IOFF_LS1_6542__TLE9186_8055">
+                              <span class="+ topic/ph ifx-d/ifx-hex ph ifx-hex">0D</span>
+                           </span>
+                           <span class="- topic/ph ph constantText">6.1mA (GDRV_RNG = 0), 12.5mA (GDRV_RNG = 1)</span>
+                        </p>
+                        <p class="- topic/p p">
+                           <span class="- topic/ph ph constantValue" id="id_IFX_SP_TLE9186_140_generic_Register_IOFF_LS1_6542__TLE9186_8056">
+                              <span class="+ topic/ph ifx-d/ifx-hex ph ifx-hex">0E</span>
+                           </span>
+                           <span class="- topic/ph ph constantText">6.9mA (GDRV_RNG = 0), 14.2mA (GDRV_RNG = 1)</span>
+                        </p>
+                        <p class="- topic/p p">
+                           <span class="- topic/ph ph constantValue" id="id_IFX_SP_TLE9186_140_generic_Register_IOFF_LS1_6542__TLE9186_8057">
+                              <span class="+ topic/ph ifx-d/ifx-hex ph ifx-hex">0F</span>
+                           </span>
+                           <span class="- topic/ph ph constantText">7.8mA (GDRV_RNG = 0), 15.9mA (GDRV_RNG = 1)</span>
+                        </p>
+                        <p class="- topic/p p">
+                           <span class="- topic/ph ph constantValue" id="id_IFX_SP_TLE9186_140_generic_Register_IOFF_LS1_6542__TLE9186_8058">
+                              <span class="+ topic/ph ifx-d/ifx-hex ph ifx-hex">10</span>
+                           </span>
+                           <span class="- topic/ph ph constantText">8.8mA (GDRV_RNG = 0), 17.7mA (GDRV_RNG = 1)</span>
+                        </p>
+                        <p class="- topic/p p">
+                           <span class="- topic/ph ph constantValue" id="id_IFX_SP_TLE9186_140_generic_Register_IOFF_LS1_6542__TLE9186_8059">
+                              <span class="+ topic/ph ifx-d/ifx-hex ph ifx-hex">11</span>
+                           </span>
+                           <span class="- topic/ph ph constantText">9.8mA (GDRV_RNG = 0), 19.5mA (GDRV_RNG = 1)</span>
+                        </p>
+                        <p class="- topic/p p">
+                           <span class="- topic/ph ph constantValue" id="id_IFX_SP_TLE9186_140_generic_Register_IOFF_LS1_6542__TLE9186_8060">
+                              <span class="+ topic/ph ifx-d/ifx-hex ph ifx-hex">12</span>
+                           </span>
+                           <span class="- topic/ph ph constantText">10.9mA (GDRV_RNG = 0), 21.4mA (GDRV_RNG = 1)</span>
+                        </p>
+                        <p class="- topic/p p">
+                           <span class="- topic/ph ph constantValue" id="id_IFX_SP_TLE9186_140_generic_Register_IOFF_LS1_6542__TLE9186_8061">
+                              <span class="+ topic/ph ifx-d/ifx-hex ph ifx-hex">13</span>
+                           </span>
+                           <span class="- topic/ph ph constantText">12mA (GDRV_RNG = 0), 23.4mA (GDRV_RNG = 1)</span>
+                        </p>
+                        <p class="- topic/p p">
+                           <span class="- topic/ph ph constantValue" id="id_IFX_SP_TLE9186_140_generic_Register_IOFF_LS1_6542__TLE9186_8062">
+                              <span class="+ topic/ph ifx-d/ifx-hex ph ifx-hex">14</span>
+                           </span>
+                           <span class="- topic/ph ph constantText">13.3mA (GDRV_RNG = 0), 25.4mA (GDRV_RNG = 1)</span>
+                        </p>
+                        <p class="- topic/p p">
+                           <span class="- topic/ph ph constantValue" id="id_IFX_SP_TLE9186_140_generic_Register_IOFF_LS1_6542__TLE9186_8063">
+                              <span class="+ topic/ph ifx-d/ifx-hex ph ifx-hex">15</span>
+                           </span>
+                           <span class="- topic/ph ph constantText">14.4mA (GDRV_RNG = 0), 27.5mA (GDRV_RNG = 1)</span>
+                        </p>
+                        <p class="- topic/p p">
+                           <span class="- topic/ph ph constantValue" id="id_IFX_SP_TLE9186_140_generic_Register_IOFF_LS1_6542__TLE9186_8064">
+                              <span class="+ topic/ph ifx-d/ifx-hex ph ifx-hex">16</span>
+                           </span>
+                           <span class="- topic/ph ph constantText">15.9mA (GDRV_RNG = 0), 29.6mA (GDRV_RNG = 1)</span>
+                        </p>
+                        <p class="- topic/p p">
+                           <span class="- topic/ph ph constantValue" id="id_IFX_SP_TLE9186_140_generic_Register_IOFF_LS1_6542__TLE9186_8065">
+                              <span class="+ topic/ph ifx-d/ifx-hex ph ifx-hex">17</span>
+                           </span>
+                           <span class="- topic/ph ph constantText">17.3mA (GDRV_RNG = 0), 31.9mA (GDRV_RNG = 1)</span>
+                        </p>
+                        <p class="- topic/p p">
+                           <span class="- topic/ph ph constantValue" id="id_IFX_SP_TLE9186_140_generic_Register_IOFF_LS1_6542__TLE9186_8066">
+                              <span class="+ topic/ph ifx-d/ifx-hex ph ifx-hex">18</span>
+                           </span>
+                           <span class="- topic/ph ph constantText">18.7mA (GDRV_RNG = 0), 34.2mA (GDRV_RNG = 1)</span>
+                        </p>
+                        <p class="- topic/p p">
+                           <span class="- topic/ph ph constantValue" id="id_IFX_SP_TLE9186_140_generic_Register_IOFF_LS1_6542__TLE9186_8067">
+                              <span class="+ topic/ph ifx-d/ifx-hex ph ifx-hex">19</span>
+                           </span>
+                           <span class="- topic/ph ph constantText">20.2mA (GDRV_RNG = 0), 36.5mA (GDRV_RNG = 1)</span>
+                        </p>
+                        <p class="- topic/p p">
+                           <span class="- topic/ph ph constantValue" id="id_IFX_SP_TLE9186_140_generic_Register_IOFF_LS1_6542__TLE9186_8068">
+                              <span class="+ topic/ph ifx-d/ifx-hex ph ifx-hex">1A</span>
+                           </span>
+                           <span class="- topic/ph ph constantText">21.7mA (GDRV_RNG = 0), 39mA (GDRV_RNG = 1)</span>
+                        </p>
+                        <p class="- topic/p p">
+                           <span class="- topic/ph ph constantValue" id="id_IFX_SP_TLE9186_140_generic_Register_IOFF_LS1_6542__TLE9186_8069">
+                              <span class="+ topic/ph ifx-d/ifx-hex ph ifx-hex">1B</span>
+                           </span>
+                           <span class="- topic/ph ph constantText">23.3mA (GDRV_RNG = 0), 41.5mA (GDRV_RNG = 1)</span>
+                        </p>
+                        <p class="- topic/p p">
+                           <span class="- topic/ph ph constantValue" id="id_IFX_SP_TLE9186_140_generic_Register_IOFF_LS1_6542__TLE9186_8070">
+                              <span class="+ topic/ph ifx-d/ifx-hex ph ifx-hex">1C</span>
+                           </span>
+                           <span class="- topic/ph ph constantText">24.9mA (GDRV_RNG = 0), 43.9mA (GDRV_RNG = 1)</span>
+                        </p>
+                        <p class="- topic/p p">
+                           <span class="- topic/ph ph constantValue" id="id_IFX_SP_TLE9186_140_generic_Register_IOFF_LS1_6542__TLE9186_8071">
+                              <span class="+ topic/ph ifx-d/ifx-hex ph ifx-hex">1D</span>
+                           </span>
+                           <span class="- topic/ph ph constantText">26.6mA (GDRV_RNG = 0), 47mA (GDRV_RNG = 1)</span>
+                        </p>
+                        <p class="- topic/p p">
+                           <span class="- topic/ph ph constantValue" id="id_IFX_SP_TLE9186_140_generic_Register_IOFF_LS1_6542__TLE9186_8072">
+                              <span class="+ topic/ph ifx-d/ifx-hex ph ifx-hex">1E</span>
+                           </span>
+                           <span class="- topic/ph ph constantText">28.2mA (GDRV_RNG = 0), 49.1mA (GDRV_RNG = 1)</span>
+                        </p>
+                        <p class="- topic/p p">
+                           <span class="- topic/ph ph constantValue" id="id_IFX_SP_TLE9186_140_generic_Register_IOFF_LS1_6542__TLE9186_8073">
+                              <span class="+ topic/ph ifx-d/ifx-hex ph ifx-hex">1F</span>
+                           </span>
+                           <span class="- topic/ph ph constantText">30mA (GDRV_RNG = 0), 51.8mA (GDRV_RNG = 1)</span>
+                        </p>
+                        <p class="- topic/p p">
+                           <span class="- topic/ph ph constantValue" id="id_IFX_SP_TLE9186_140_generic_Register_IOFF_LS1_6542__TLE9186_8074">
+                              <span class="+ topic/ph ifx-d/ifx-hex ph ifx-hex">20</span>
+                           </span>
+                           <span class="- topic/ph ph constantText">31.8mA (GDRV_RNG = 0), 54.5mA (GDRV_RNG = 1) (default)</span>
+                        </p>
+                        <p class="- topic/p p">
+                           <span class="- topic/ph ph constantValue" id="id_IFX_SP_TLE9186_140_generic_Register_IOFF_LS1_6542__TLE9186_8075">
+                              <span class="+ topic/ph ifx-d/ifx-hex ph ifx-hex">21</span>
+                           </span>
+                           <span class="- topic/ph ph constantText">33.7mA (GDRV_RNG = 0), 57.2mA (GDRV_RNG = 1)</span>
+                        </p>
+                        <p class="- topic/p p">
+                           <span class="- topic/ph ph constantValue" id="id_IFX_SP_TLE9186_140_generic_Register_IOFF_LS1_6542__TLE9186_8076">
+                              <span class="+ topic/ph ifx-d/ifx-hex ph ifx-hex">22</span>
+                           </span>
+                           <span class="- topic/ph ph constantText">35.5mA (GDRV_RNG = 0), 60mA (GDRV_RNG = 1)</span>
+                        </p>
+                        <p class="- topic/p p">
+                           <span class="- topic/ph ph constantValue" id="id_IFX_SP_TLE9186_140_generic_Register_IOFF_LS1_6542__TLE9186_8077">
+                              <span class="+ topic/ph ifx-d/ifx-hex ph ifx-hex">23</span>
+                           </span>
+                           <span class="- topic/ph ph constantText">37.4mA (GDRV_RNG = 0), 63mA (GDRV_RNG = 1)</span>
+                        </p>
+                        <p class="- topic/p p">
+                           <span class="- topic/ph ph constantValue" id="id_IFX_SP_TLE9186_140_generic_Register_IOFF_LS1_6542__TLE9186_8078">
+                              <span class="+ topic/ph ifx-d/ifx-hex ph ifx-hex">24</span>
+                           </span>
+                           <span class="- topic/ph ph constantText">39.4mA (GDRV_RNG = 0), 66mA (GDRV_RNG = 1)</span>
+                        </p>
+                        <p class="- topic/p p">
+                           <span class="- topic/ph ph constantValue" id="id_IFX_SP_TLE9186_140_generic_Register_IOFF_LS1_6542__TLE9186_8079">
+                              <span class="+ topic/ph ifx-d/ifx-hex ph ifx-hex">25</span>
+                           </span>
+                           <span class="- topic/ph ph constantText">41.4mA (GDRV_RNG = 0), 69mA (GDRV_RNG = 1)</span>
+                        </p>
+                        <p class="- topic/p p">
+                           <span class="- topic/ph ph constantValue" id="id_IFX_SP_TLE9186_140_generic_Register_IOFF_LS1_6542__TLE9186_8080">
+                              <span class="+ topic/ph ifx-d/ifx-hex ph ifx-hex">26</span>
+                           </span>
+                           <span class="- topic/ph ph constantText">43.4mA (GDRV_RNG = 0), 71.7mA (GDRV_RNG = 1)</span>
+                        </p>
+                        <p class="- topic/p p">
+                           <span class="- topic/ph ph constantValue" id="id_IFX_SP_TLE9186_140_generic_Register_IOFF_LS1_6542__TLE9186_8081">
+                              <span class="+ topic/ph ifx-d/ifx-hex ph ifx-hex">27</span>
+                           </span>
+                           <span class="- topic/ph ph constantText">45.4mA (GDRV_RNG = 0), 74.5mA (GDRV_RNG = 1)</span>
+                        </p>
+                        <p class="- topic/p p">
+                           <span class="- topic/ph ph constantValue" id="id_IFX_SP_TLE9186_140_generic_Register_IOFF_LS1_6542__TLE9186_8082">
+                              <span class="+ topic/ph ifx-d/ifx-hex ph ifx-hex">28</span>
+                           </span>
+                           <span class="- topic/ph ph constantText">47.4mA (GDRV_RNG = 0), 77.8mA (GDRV_RNG = 1)</span>
+                        </p>
+                        <p class="- topic/p p">
+                           <span class="- topic/ph ph constantValue" id="id_IFX_SP_TLE9186_140_generic_Register_IOFF_LS1_6542__TLE9186_8083">
+                              <span class="+ topic/ph ifx-d/ifx-hex ph ifx-hex">29</span>
+                           </span>
+                           <span class="- topic/ph ph constantText">49.6mA (GDRV_RNG = 0), 80.9mA (GDRV_RNG = 1)</span>
+                        </p>
+                        <p class="- topic/p p">
+                           <span class="- topic/ph ph constantValue" id="id_IFX_SP_TLE9186_140_generic_Register_IOFF_LS1_6542__TLE9186_8084">
+                              <span class="+ topic/ph ifx-d/ifx-hex ph ifx-hex">2A</span>
+                           </span>
+                           <span class="- topic/ph ph constantText">51.7mA (GDRV_RNG = 0), 84mA (GDRV_RNG = 1)</span>
+                        </p>
+                        <p class="- topic/p p">
+                           <span class="- topic/ph ph constantValue" id="id_IFX_SP_TLE9186_140_generic_Register_IOFF_LS1_6542__TLE9186_8085">
+                              <span class="+ topic/ph ifx-d/ifx-hex ph ifx-hex">2B</span>
+                           </span>
+                           <span class="- topic/ph ph constantText">53.9mA (GDRV_RNG = 0), 87.1mA (GDRV_RNG = 1)</span>
+                        </p>
+                        <p class="- topic/p p">
+                           <span class="- topic/ph ph constantValue" id="id_IFX_SP_TLE9186_140_generic_Register_IOFF_LS1_6542__TLE9186_8086">
+                              <span class="+ topic/ph ifx-d/ifx-hex ph ifx-hex">2C</span>
+                           </span>
+                           <span class="- topic/ph ph constantText">56mA (GDRV_RNG = 0), 90.2mA (GDRV_RNG = 1)</span>
+                        </p>
+                        <p class="- topic/p p">
+                           <span class="- topic/ph ph constantValue" id="id_IFX_SP_TLE9186_140_generic_Register_IOFF_LS1_6542__TLE9186_8087">
+                              <span class="+ topic/ph ifx-d/ifx-hex ph ifx-hex">2D</span>
+                           </span>
+                           <span class="- topic/ph ph constantText">58.2mA (GDRV_RNG = 0), 93.3mA (GDRV_RNG = 1)</span>
+                        </p>
+                        <p class="- topic/p p">
+                           <span class="- topic/ph ph constantValue" id="id_IFX_SP_TLE9186_140_generic_Register_IOFF_LS1_6542__TLE9186_8088">
+                              <span class="+ topic/ph ifx-d/ifx-hex ph ifx-hex">2E</span>
+                           </span>
+                           <span class="- topic/ph ph constantText">60.4mA (GDRV_RNG = 0), 96.5mA (GDRV_RNG = 1)</span>
+                        </p>
+                        <p class="- topic/p p">
+                           <span class="- topic/ph ph constantValue" id="id_IFX_SP_TLE9186_140_generic_Register_IOFF_LS1_6542__TLE9186_8089">
+                              <span class="+ topic/ph ifx-d/ifx-hex ph ifx-hex">2F</span>
+                           </span>
+                           <span class="- topic/ph ph constantText">62.6mA (GDRV_RNG = 0), 99.7mA (GDRV_RNG = 1)</span>
+                        </p>
+                        <p class="- topic/p p">
+                           <span class="- topic/ph ph constantValue" id="id_IFX_SP_TLE9186_140_generic_Register_IOFF_LS1_6542__TLE9186_8090">
+                              <span class="+ topic/ph ifx-d/ifx-hex ph ifx-hex">30</span>
+                           </span>
+                           <span class="- topic/ph ph constantText">65mA (GDRV_RNG = 0), 102.9mA (GDRV_RNG = 1)</span>
+                        </p>
+                        <p class="- topic/p p">
+                           <span class="- topic/ph ph constantValue" id="id_IFX_SP_TLE9186_140_generic_Register_IOFF_LS1_6542__TLE9186_8091">
+                              <span class="+ topic/ph ifx-d/ifx-hex ph ifx-hex">31</span>
+                           </span>
+                           <span class="- topic/ph ph constantText">67.3mA (GDRV_RNG = 0), 106mA (GDRV_RNG = 1)</span>
+                        </p>
+                        <p class="- topic/p p">
+                           <span class="- topic/ph ph constantValue" id="id_IFX_SP_TLE9186_140_generic_Register_IOFF_LS1_6542__TLE9186_8092">
+                              <span class="+ topic/ph ifx-d/ifx-hex ph ifx-hex">32</span>
+                           </span>
+                           <span class="- topic/ph ph constantText">69.6mA (GDRV_RNG = 0), 109.5mA (GDRV_RNG = 1)</span>
+                        </p>
+                        <p class="- topic/p p">
+                           <span class="- topic/ph ph constantValue" id="id_IFX_SP_TLE9186_140_generic_Register_IOFF_LS1_6542__TLE9186_8093">
+                              <span class="+ topic/ph ifx-d/ifx-hex ph ifx-hex">33</span>
+                           </span>
+                           <span class="- topic/ph ph constantText">72mA (GDRV_RNG = 0), 112.6mA (GDRV_RNG = 1)</span>
+                        </p>
+                        <p class="- topic/p p">
+                           <span class="- topic/ph ph constantValue" id="id_IFX_SP_TLE9186_140_generic_Register_IOFF_LS1_6542__TLE9186_8094">
+                              <span class="+ topic/ph ifx-d/ifx-hex ph ifx-hex">34</span>
+                           </span>
+                           <span class="- topic/ph ph constantText">74.3mA (GDRV_RNG = 0), 115.7mA (GDRV_RNG = 1)</span>
+                        </p>
+                        <p class="- topic/p p">
+                           <span class="- topic/ph ph constantValue" id="id_IFX_SP_TLE9186_140_generic_Register_IOFF_LS1_6542__TLE9186_8095">
+                              <span class="+ topic/ph ifx-d/ifx-hex ph ifx-hex">35</span>
+                           </span>
+                           <span class="- topic/ph ph constantText">76.7mA (GDRV_RNG = 0), 119mA (GDRV_RNG = 1)</span>
+                        </p>
+                        <p class="- topic/p p">
+                           <span class="- topic/ph ph constantValue" id="id_IFX_SP_TLE9186_140_generic_Register_IOFF_LS1_6542__TLE9186_8096">
+                              <span class="+ topic/ph ifx-d/ifx-hex ph ifx-hex">36</span>
+                           </span>
+                           <span class="- topic/ph ph constantText">79.1mA (GDRV_RNG = 0), 122.4mA (GDRV_RNG = 1)</span>
+                        </p>
+                        <p class="- topic/p p">
+                           <span class="- topic/ph ph constantValue" id="id_IFX_SP_TLE9186_140_generic_Register_IOFF_LS1_6542__TLE9186_8097">
+                              <span class="+ topic/ph ifx-d/ifx-hex ph ifx-hex">37</span>
+                           </span>
+                           <span class="- topic/ph ph constantText">81.5mA (GDRV_RNG = 0), 125.8mA (GDRV_RNG = 1)</span>
+                        </p>
+                        <p class="- topic/p p">
+                           <span class="- topic/ph ph constantValue" id="id_IFX_SP_TLE9186_140_generic_Register_IOFF_LS1_6542__TLE9186_8098">
+                              <span class="+ topic/ph ifx-d/ifx-hex ph ifx-hex">38</span>
+                           </span>
+                           <span class="- topic/ph ph constantText">83.9mA (GDRV_RNG = 0), 129.1mA (GDRV_RNG = 1)</span>
+                        </p>
+                        <p class="- topic/p p">
+                           <span class="- topic/ph ph constantValue" id="id_IFX_SP_TLE9186_140_generic_Register_IOFF_LS1_6542__TLE9186_8099">
+                              <span class="+ topic/ph ifx-d/ifx-hex ph ifx-hex">39</span>
+                           </span>
+                           <span class="- topic/ph ph constantText">86.4mA (GDRV_RNG = 0), 132.4mA (GDRV_RNG = 1)</span>
+                        </p>
+                        <p class="- topic/p p">
+                           <span class="- topic/ph ph constantValue" id="id_IFX_SP_TLE9186_140_generic_Register_IOFF_LS1_6542__TLE9186_8100">
+                              <span class="+ topic/ph ifx-d/ifx-hex ph ifx-hex">3A</span>
+                           </span>
+                           <span class="- topic/ph ph constantText">88.9mA (GDRV_RNG = 0), 135.7mA (GDRV_RNG = 1)</span>
+                        </p>
+                        <p class="- topic/p p">
+                           <span class="- topic/ph ph constantValue" id="id_IFX_SP_TLE9186_140_generic_Register_IOFF_LS1_6542__TLE9186_8101">
+                              <span class="+ topic/ph ifx-d/ifx-hex ph ifx-hex">3B</span>
+                           </span>
+                           <span class="- topic/ph ph constantText">91.4mA (GDRV_RNG = 0), 139mA (GDRV_RNG = 1)</span>
+                        </p>
+                        <p class="- topic/p p">
+                           <span class="- topic/ph ph constantValue" id="id_IFX_SP_TLE9186_140_generic_Register_IOFF_LS1_6542__TLE9186_8102">
+                              <span class="+ topic/ph ifx-d/ifx-hex ph ifx-hex">3C</span>
+                           </span>
+                           <span class="- topic/ph ph constantText">93.9mA (GDRV_RNG = 0), 142.4mA (GDRV_RNG = 1)</span>
+                        </p>
+                        <p class="- topic/p p">
+                           <span class="- topic/ph ph constantValue" id="id_IFX_SP_TLE9186_140_generic_Register_IOFF_LS1_6542__TLE9186_8103">
+                              <span class="+ topic/ph ifx-d/ifx-hex ph ifx-hex">3D</span>
+                           </span>
+                           <span class="- topic/ph ph constantText">96.4mA (GDRV_RNG = 0), 145.8mA (GDRV_RNG = 1)</span>
+                        </p>
+                        <p class="- topic/p p">
+                           <span class="- topic/ph ph constantValue" id="id_IFX_SP_TLE9186_140_generic_Register_IOFF_LS1_6542__TLE9186_8104">
+                              <span class="+ topic/ph ifx-d/ifx-hex ph ifx-hex">3E</span>
+                           </span>
+                           <span class="- topic/ph ph constantText">99mA (GDRV_RNG = 0), 149.2mA (GDRV_RNG = 1)</span>
+                        </p>
+                        <p class="- topic/p p">
+                           <span class="- topic/ph ph constantValue" id="id_IFX_SP_TLE9186_140_generic_Register_IOFF_LS1_6542__TLE9186_8105">
+                              <span class="+ topic/ph ifx-d/ifx-hex ph ifx-hex">3F</span>
+                           </span>
+                           <span class="- topic/ph ph constantText">101.5mA (GDRV_RNG = 0), 152.6mA (GDRV_RNG = 1)</span>
+                        </p>
+                     </td>
+                  </tr>
+                  <tr class="- topic/row" id="id_IFX_SP_TLE9186_140_generic_Register_IOFF_LS1_6542__d680e1065">
+                     <td class="- topic/entry entry colsep-1 rowsep-1" headers="id_IFX_SP_TLE9186_140_generic_Register_IOFF_LS1_6542__d680e244__entry__1">
+                        <span class="- topic/ph ph" id="id_IFX_SP_TLE9186_140_generic_Register_IOFF_LS1_6542__TLE9186_IOFF_LS1.I1OFF_LS1_6548">
+                           <span class="- topic/ph ph" id="id_IFX_SP_TLE9186_140_generic_Register_IOFF_LS1_6542__I1OFF_LS1">I1OFF_LS1</span>
+                        </span>
+                     </td>
+                     <td class="- topic/entry entry colsep-1 rowsep-1" headers="id_IFX_SP_TLE9186_140_generic_Register_IOFF_LS1_6542__d680e244__entry__2">13:8</td>
+                     <td class="- topic/entry entry colsep-1 rowsep-1" headers="id_IFX_SP_TLE9186_140_generic_Register_IOFF_LS1_6542__d680e244__entry__3">rw</td>
+                     <td class="- topic/entry entry colsep-0 rowsep-1" headers="id_IFX_SP_TLE9186_140_generic_Register_IOFF_LS1_6542__d680e244__entry__4">
+                        <p class="- topic/p p FieldTitle">LS1 Gate Driver pre-discharge current setting</p>
+                        <p class="- topic/p p">
+                           <span class="- topic/ph ph constantValue" id="id_IFX_SP_TLE9186_140_generic_Register_IOFF_LS1_6542__TLE9186_8106">
+                              <span class="+ topic/ph ifx-d/ifx-hex ph ifx-hex">00</span>
+                           </span>
+                           <span class="- topic/ph ph constantText">0.5mA (GDRV_RNG = 0), 1mA (GDRV_RNG = 1)</span>
+                        </p>
+                        <p class="- topic/p p">
+                           <span class="- topic/ph ph constantValue" id="id_IFX_SP_TLE9186_140_generic_Register_IOFF_LS1_6542__TLE9186_8107">
+                              <span class="+ topic/ph ifx-d/ifx-hex ph ifx-hex">01</span>
+                           </span>
+                           <span class="- topic/ph ph constantText">0.7mA (GDRV_RNG = 0), 1.4mA (GDRV_RNG = 1)</span>
+                        </p>
+                        <p class="- topic/p p">
+                           <span class="- topic/ph ph constantValue" id="id_IFX_SP_TLE9186_140_generic_Register_IOFF_LS1_6542__TLE9186_8108">
+                              <span class="+ topic/ph ifx-d/ifx-hex ph ifx-hex">02</span>
+                           </span>
+                           <span class="- topic/ph ph constantText">0.8mA (GDRV_RNG = 0), 1.8mA (GDRV_RNG = 1)</span>
+                        </p>
+                        <p class="- topic/p p">
+                           <span class="- topic/ph ph constantValue" id="id_IFX_SP_TLE9186_140_generic_Register_IOFF_LS1_6542__TLE9186_8109">
+                              <span class="+ topic/ph ifx-d/ifx-hex ph ifx-hex">03</span>
+                           </span>
+                           <span class="- topic/ph ph constantText">1.1mA (GDRV_RNG = 0), 2.3mA (GDRV_RNG = 1)</span>
+                        </p>
+                        <p class="- topic/p p">
+                           <span class="- topic/ph ph constantValue" id="id_IFX_SP_TLE9186_140_generic_Register_IOFF_LS1_6542__TLE9186_8110">
+                              <span class="+ topic/ph ifx-d/ifx-hex ph ifx-hex">04</span>
+                           </span>
+                           <span class="- topic/ph ph constantText">1.3mA (GDRV_RNG = 0), 2.9mA (GDRV_RNG = 1)</span>
+                        </p>
+                        <p class="- topic/p p">
+                           <span class="- topic/ph ph constantValue" id="id_IFX_SP_TLE9186_140_generic_Register_IOFF_LS1_6542__TLE9186_8111">
+                              <span class="+ topic/ph ifx-d/ifx-hex ph ifx-hex">05</span>
+                           </span>
+                           <span class="- topic/ph ph constantText">1.6mA (GDRV_RNG = 0), 3.5mA (GDRV_RNG = 1)</span>
+                        </p>
+                        <p class="- topic/p p">
+                           <span class="- topic/ph ph constantValue" id="id_IFX_SP_TLE9186_140_generic_Register_IOFF_LS1_6542__TLE9186_8112">
+                              <span class="+ topic/ph ifx-d/ifx-hex ph ifx-hex">06</span>
+                           </span>
+                           <span class="- topic/ph ph constantText">2mA (GDRV_RNG = 0), 4.3mA (GDRV_RNG = 1)</span>
+                        </p>
+                        <p class="- topic/p p">
+                           <span class="- topic/ph ph constantValue" id="id_IFX_SP_TLE9186_140_generic_Register_IOFF_LS1_6542__TLE9186_8113">
+                              <span class="+ topic/ph ifx-d/ifx-hex ph ifx-hex">07</span>
+                           </span>
+                           <span class="- topic/ph ph constantText">2.4mA (GDRV_RNG = 0), 5.2mA (GDRV_RNG = 1)</span>
+                        </p>
+                        <p class="- topic/p p">
+                           <span class="- topic/ph ph constantValue" id="id_IFX_SP_TLE9186_140_generic_Register_IOFF_LS1_6542__TLE9186_8114">
+                              <span class="+ topic/ph ifx-d/ifx-hex ph ifx-hex">08</span>
+                           </span>
+                           <span class="- topic/ph ph constantText">2.8mA (GDRV_RNG = 0), 6.2mA (GDRV_RNG = 1)</span>
+                        </p>
+                        <p class="- topic/p p">
+                           <span class="- topic/ph ph constantValue" id="id_IFX_SP_TLE9186_140_generic_Register_IOFF_LS1_6542__TLE9186_8115">
+                              <span class="+ topic/ph ifx-d/ifx-hex ph ifx-hex">09</span>
+                           </span>
+                           <span class="- topic/ph ph constantText">3.4mA (GDRV_RNG = 0), 7.3mA (GDRV_RNG = 1)</span>
+                        </p>
+                        <p class="- topic/p p">
+                           <span class="- topic/ph ph constantValue" id="id_IFX_SP_TLE9186_140_generic_Register_IOFF_LS1_6542__TLE9186_8116">
+                              <span class="+ topic/ph ifx-d/ifx-hex ph ifx-hex">0A</span>
+                           </span>
+                           <span class="- topic/ph ph constantText">3.9mA (GDRV_RNG = 0), 8.5mA (GDRV_RNG = 1)</span>
+                        </p>
+                        <p class="- topic/p p">
+                           <span class="- topic/ph ph constantValue" id="id_IFX_SP_TLE9186_140_generic_Register_IOFF_LS1_6542__TLE9186_8117">
+                              <span class="+ topic/ph ifx-d/ifx-hex ph ifx-hex">0B</span>
+                           </span>
+                           <span class="- topic/ph ph constantText">4.5mA (GDRV_RNG = 0), 9.8mA (GDRV_RNG = 1)</span>
+                        </p>
+                        <p class="- topic/p p">
+                           <span class="- topic/ph ph constantValue" id="id_IFX_SP_TLE9186_140_generic_Register_IOFF_LS1_6542__TLE9186_8118">
+                              <span class="+ topic/ph ifx-d/ifx-hex ph ifx-hex">0C</span>
+                           </span>
+                           <span class="- topic/ph ph constantText">5.3mA (GDRV_RNG = 0), 11.1mA (GDRV_RNG = 1)</span>
+                        </p>
+                        <p class="- topic/p p">
+                           <span class="- topic/ph ph constantValue" id="id_IFX_SP_TLE9186_140_generic_Register_IOFF_LS1_6542__TLE9186_8119">
+                              <span class="+ topic/ph ifx-d/ifx-hex ph ifx-hex">0D</span>
+                           </span>
+                           <span class="- topic/ph ph constantText">6.1mA (GDRV_RNG = 0), 12.5mA (GDRV_RNG = 1)</span>
+                        </p>
+                        <p class="- topic/p p">
+                           <span class="- topic/ph ph constantValue" id="id_IFX_SP_TLE9186_140_generic_Register_IOFF_LS1_6542__TLE9186_8120">
+                              <span class="+ topic/ph ifx-d/ifx-hex ph ifx-hex">0E</span>
+                           </span>
+                           <span class="- topic/ph ph constantText">6.9mA (GDRV_RNG = 0), 14.2mA (GDRV_RNG = 1)</span>
+                        </p>
+                        <p class="- topic/p p">
+                           <span class="- topic/ph ph constantValue" id="id_IFX_SP_TLE9186_140_generic_Register_IOFF_LS1_6542__TLE9186_8121">
+                              <span class="+ topic/ph ifx-d/ifx-hex ph ifx-hex">0F</span>
+                           </span>
+                           <span class="- topic/ph ph constantText">7.8mA (GDRV_RNG = 0), 15.9mA (GDRV_RNG = 1)</span>
+                        </p>
+                        <p class="- topic/p p">
+                           <span class="- topic/ph ph constantValue" id="id_IFX_SP_TLE9186_140_generic_Register_IOFF_LS1_6542__TLE9186_8122">
+                              <span class="+ topic/ph ifx-d/ifx-hex ph ifx-hex">10</span>
+                           </span>
+                           <span class="- topic/ph ph constantText">8.8mA (GDRV_RNG = 0), 17.7mA (GDRV_RNG = 1)</span>
+                        </p>
+                        <p class="- topic/p p">
+                           <span class="- topic/ph ph constantValue" id="id_IFX_SP_TLE9186_140_generic_Register_IOFF_LS1_6542__TLE9186_8123">
+                              <span class="+ topic/ph ifx-d/ifx-hex ph ifx-hex">11</span>
+                           </span>
+                           <span class="- topic/ph ph constantText">9.8mA (GDRV_RNG = 0), 19.5mA (GDRV_RNG = 1)</span>
+                        </p>
+                        <p class="- topic/p p">
+                           <span class="- topic/ph ph constantValue" id="id_IFX_SP_TLE9186_140_generic_Register_IOFF_LS1_6542__TLE9186_8124">
+                              <span class="+ topic/ph ifx-d/ifx-hex ph ifx-hex">12</span>
+                           </span>
+                           <span class="- topic/ph ph constantText">10.9mA (GDRV_RNG = 0), 21.4mA (GDRV_RNG = 1)</span>
+                        </p>
+                        <p class="- topic/p p">
+                           <span class="- topic/ph ph constantValue" id="id_IFX_SP_TLE9186_140_generic_Register_IOFF_LS1_6542__TLE9186_8125">
+                              <span class="+ topic/ph ifx-d/ifx-hex ph ifx-hex">13</span>
+                           </span>
+                           <span class="- topic/ph ph constantText">12mA (GDRV_RNG = 0), 23.4mA (GDRV_RNG = 1)</span>
+                        </p>
+                        <p class="- topic/p p">
+                           <span class="- topic/ph ph constantValue" id="id_IFX_SP_TLE9186_140_generic_Register_IOFF_LS1_6542__TLE9186_8126">
+                              <span class="+ topic/ph ifx-d/ifx-hex ph ifx-hex">14</span>
+                           </span>
+                           <span class="- topic/ph ph constantText">13.3mA (GDRV_RNG = 0), 25.4mA (GDRV_RNG = 1)</span>
+                        </p>
+                        <p class="- topic/p p">
+                           <span class="- topic/ph ph constantValue" id="id_IFX_SP_TLE9186_140_generic_Register_IOFF_LS1_6542__TLE9186_8127">
+                              <span class="+ topic/ph ifx-d/ifx-hex ph ifx-hex">15</span>
+                           </span>
+                           <span class="- topic/ph ph constantText">14.4mA (GDRV_RNG = 0), 27.5mA (GDRV_RNG = 1)</span>
+                        </p>
+                        <p class="- topic/p p">
+                           <span class="- topic/ph ph constantValue" id="id_IFX_SP_TLE9186_140_generic_Register_IOFF_LS1_6542__TLE9186_8128">
+                              <span class="+ topic/ph ifx-d/ifx-hex ph ifx-hex">16</span>
+                           </span>
+                           <span class="- topic/ph ph constantText">15.9mA (GDRV_RNG = 0), 29.6mA (GDRV_RNG = 1)</span>
+                        </p>
+                        <p class="- topic/p p">
+                           <span class="- topic/ph ph constantValue" id="id_IFX_SP_TLE9186_140_generic_Register_IOFF_LS1_6542__TLE9186_8129">
+                              <span class="+ topic/ph ifx-d/ifx-hex ph ifx-hex">17</span>
+                           </span>
+                           <span class="- topic/ph ph constantText">17.3mA (GDRV_RNG = 0), 31.9mA (GDRV_RNG = 1)</span>
+                        </p>
+                        <p class="- topic/p p">
+                           <span class="- topic/ph ph constantValue" id="id_IFX_SP_TLE9186_140_generic_Register_IOFF_LS1_6542__TLE9186_8130">
+                              <span class="+ topic/ph ifx-d/ifx-hex ph ifx-hex">18</span>
+                           </span>
+                           <span class="- topic/ph ph constantText">18.7mA (GDRV_RNG = 0), 34.2mA (GDRV_RNG = 1)</span>
+                        </p>
+                        <p class="- topic/p p">
+                           <span class="- topic/ph ph constantValue" id="id_IFX_SP_TLE9186_140_generic_Register_IOFF_LS1_6542__TLE9186_8131">
+                              <span class="+ topic/ph ifx-d/ifx-hex ph ifx-hex">19</span>
+                           </span>
+                           <span class="- topic/ph ph constantText">20.2mA (GDRV_RNG = 0), 36.5mA (GDRV_RNG = 1)</span>
+                        </p>
+                        <p class="- topic/p p">
+                           <span class="- topic/ph ph constantValue" id="id_IFX_SP_TLE9186_140_generic_Register_IOFF_LS1_6542__TLE9186_8132">
+                              <span class="+ topic/ph ifx-d/ifx-hex ph ifx-hex">1A</span>
+                           </span>
+                           <span class="- topic/ph ph constantText">21.7mA (GDRV_RNG = 0), 39mA (GDRV_RNG = 1)</span>
+                        </p>
+                        <p class="- topic/p p">
+                           <span class="- topic/ph ph constantValue" id="id_IFX_SP_TLE9186_140_generic_Register_IOFF_LS1_6542__TLE9186_8133">
+                              <span class="+ topic/ph ifx-d/ifx-hex ph ifx-hex">1B</span>
+                           </span>
+                           <span class="- topic/ph ph constantText">23.3mA (GDRV_RNG = 0), 41.5mA (GDRV_RNG = 1)</span>
+                        </p>
+                        <p class="- topic/p p">
+                           <span class="- topic/ph ph constantValue" id="id_IFX_SP_TLE9186_140_generic_Register_IOFF_LS1_6542__TLE9186_8134">
+                              <span class="+ topic/ph ifx-d/ifx-hex ph ifx-hex">1C</span>
+                           </span>
+                           <span class="- topic/ph ph constantText">24.9mA (GDRV_RNG = 0), 43.9mA (GDRV_RNG = 1)</span>
+                        </p>
+                        <p class="- topic/p p">
+                           <span class="- topic/ph ph constantValue" id="id_IFX_SP_TLE9186_140_generic_Register_IOFF_LS1_6542__TLE9186_8135">
+                              <span class="+ topic/ph ifx-d/ifx-hex ph ifx-hex">1D</span>
+                           </span>
+                           <span class="- topic/ph ph constantText">26.6mA (GDRV_RNG = 0), 47mA (GDRV_RNG = 1)</span>
+                        </p>
+                        <p class="- topic/p p">
+                           <span class="- topic/ph ph constantValue" id="id_IFX_SP_TLE9186_140_generic_Register_IOFF_LS1_6542__TLE9186_8136">
+                              <span class="+ topic/ph ifx-d/ifx-hex ph ifx-hex">1E</span>
+                           </span>
+                           <span class="- topic/ph ph constantText">28.2mA (GDRV_RNG = 0), 49.1mA (GDRV_RNG = 1)</span>
+                        </p>
+                        <p class="- topic/p p">
+                           <span class="- topic/ph ph constantValue" id="id_IFX_SP_TLE9186_140_generic_Register_IOFF_LS1_6542__TLE9186_8137">
+                              <span class="+ topic/ph ifx-d/ifx-hex ph ifx-hex">1F</span>
+                           </span>
+                           <span class="- topic/ph ph constantText">30mA (GDRV_RNG = 0), 51.8mA (GDRV_RNG = 1)</span>
+                        </p>
+                        <p class="- topic/p p">
+                           <span class="- topic/ph ph constantValue" id="id_IFX_SP_TLE9186_140_generic_Register_IOFF_LS1_6542__TLE9186_8138">
+                              <span class="+ topic/ph ifx-d/ifx-hex ph ifx-hex">20</span>
+                           </span>
+                           <span class="- topic/ph ph constantText">31.8mA (GDRV_RNG = 0), 54.5mA (GDRV_RNG = 1) (default)</span>
+                        </p>
+                        <p class="- topic/p p">
+                           <span class="- topic/ph ph constantValue" id="id_IFX_SP_TLE9186_140_generic_Register_IOFF_LS1_6542__TLE9186_8139">
+                              <span class="+ topic/ph ifx-d/ifx-hex ph ifx-hex">21</span>
+                           </span>
+                           <span class="- topic/ph ph constantText">33.7mA (GDRV_RNG = 0), 57.2mA (GDRV_RNG = 1)</span>
+                        </p>
+                        <p class="- topic/p p">
+                           <span class="- topic/ph ph constantValue" id="id_IFX_SP_TLE9186_140_generic_Register_IOFF_LS1_6542__TLE9186_8140">
+                              <span class="+ topic/ph ifx-d/ifx-hex ph ifx-hex">22</span>
+                           </span>
+                           <span class="- topic/ph ph constantText">35.5mA (GDRV_RNG = 0), 60mA (GDRV_RNG = 1)</span>
+                        </p>
+                        <p class="- topic/p p">
+                           <span class="- topic/ph ph constantValue" id="id_IFX_SP_TLE9186_140_generic_Register_IOFF_LS1_6542__TLE9186_8141">
+                              <span class="+ topic/ph ifx-d/ifx-hex ph ifx-hex">23</span>
+                           </span>
+                           <span class="- topic/ph ph constantText">37.4mA (GDRV_RNG = 0), 63mA (GDRV_RNG = 1)</span>
+                        </p>
+                        <p class="- topic/p p">
+                           <span class="- topic/ph ph constantValue" id="id_IFX_SP_TLE9186_140_generic_Register_IOFF_LS1_6542__TLE9186_8142">
+                              <span class="+ topic/ph ifx-d/ifx-hex ph ifx-hex">24</span>
+                           </span>
+                           <span class="- topic/ph ph constantText">39.4mA (GDRV_RNG = 0), 66mA (GDRV_RNG = 1)</span>
+                        </p>
+                        <p class="- topic/p p">
+                           <span class="- topic/ph ph constantValue" id="id_IFX_SP_TLE9186_140_generic_Register_IOFF_LS1_6542__TLE9186_8143">
+                              <span class="+ topic/ph ifx-d/ifx-hex ph ifx-hex">25</span>
+                           </span>
+                           <span class="- topic/ph ph constantText">41.4mA (GDRV_RNG = 0), 69mA (GDRV_RNG = 1)</span>
+                        </p>
+                        <p class="- topic/p p">
+                           <span class="- topic/ph ph constantValue" id="id_IFX_SP_TLE9186_140_generic_Register_IOFF_LS1_6542__TLE9186_8144">
+                              <span class="+ topic/ph ifx-d/ifx-hex ph ifx-hex">26</span>
+                           </span>
+                           <span class="- topic/ph ph constantText">43.4mA (GDRV_RNG = 0), 71.7mA (GDRV_RNG = 1)</span>
+                        </p>
+                        <p class="- topic/p p">
+                           <span class="- topic/ph ph constantValue" id="id_IFX_SP_TLE9186_140_generic_Register_IOFF_LS1_6542__TLE9186_8145">
+                              <span class="+ topic/ph ifx-d/ifx-hex ph ifx-hex">27</span>
+                           </span>
+                           <span class="- topic/ph ph constantText">45.4mA (GDRV_RNG = 0), 74.5mA (GDRV_RNG = 1)</span>
+                        </p>
+                        <p class="- topic/p p">
+                           <span class="- topic/ph ph constantValue" id="id_IFX_SP_TLE9186_140_generic_Register_IOFF_LS1_6542__TLE9186_8146">
+                              <span class="+ topic/ph ifx-d/ifx-hex ph ifx-hex">28</span>
+                           </span>
+                           <span class="- topic/ph ph constantText">47.4mA (GDRV_RNG = 0), 77.8mA (GDRV_RNG = 1)</span>
+                        </p>
+                        <p class="- topic/p p">
+                           <span class="- topic/ph ph constantValue" id="id_IFX_SP_TLE9186_140_generic_Register_IOFF_LS1_6542__TLE9186_8147">
+                              <span class="+ topic/ph ifx-d/ifx-hex ph ifx-hex">29</span>
+                           </span>
+                           <span class="- topic/ph ph constantText">49.6mA (GDRV_RNG = 0), 80.9mA (GDRV_RNG = 1)</span>
+                        </p>
+                        <p class="- topic/p p">
+                           <span class="- topic/ph ph constantValue" id="id_IFX_SP_TLE9186_140_generic_Register_IOFF_LS1_6542__TLE9186_8148">
+                              <span class="+ topic/ph ifx-d/ifx-hex ph ifx-hex">2A</span>
+                           </span>
+                           <span class="- topic/ph ph constantText">51.7mA (GDRV_RNG = 0), 84mA (GDRV_RNG = 1)</span>
+                        </p>
+                        <p class="- topic/p p">
+                           <span class="- topic/ph ph constantValue" id="id_IFX_SP_TLE9186_140_generic_Register_IOFF_LS1_6542__TLE9186_8149">
+                              <span class="+ topic/ph ifx-d/ifx-hex ph ifx-hex">2B</span>
+                           </span>
+                           <span class="- topic/ph ph constantText">53.9mA (GDRV_RNG = 0), 87.1mA (GDRV_RNG = 1)</span>
+                        </p>
+                        <p class="- topic/p p">
+                           <span class="- topic/ph ph constantValue" id="id_IFX_SP_TLE9186_140_generic_Register_IOFF_LS1_6542__TLE9186_8150">
+                              <span class="+ topic/ph ifx-d/ifx-hex ph ifx-hex">2C</span>
+                           </span>
+                           <span class="- topic/ph ph constantText">56mA (GDRV_RNG = 0), 90.2mA (GDRV_RNG = 1)</span>
+                        </p>
+                        <p class="- topic/p p">
+                           <span class="- topic/ph ph constantValue" id="id_IFX_SP_TLE9186_140_generic_Register_IOFF_LS1_6542__TLE9186_8151">
+                              <span class="+ topic/ph ifx-d/ifx-hex ph ifx-hex">2D</span>
+                           </span>
+                           <span class="- topic/ph ph constantText">58.2mA (GDRV_RNG = 0), 93.3mA (GDRV_RNG = 1)</span>
+                        </p>
+                        <p class="- topic/p p">
+                           <span class="- topic/ph ph constantValue" id="id_IFX_SP_TLE9186_140_generic_Register_IOFF_LS1_6542__TLE9186_8152">
+                              <span class="+ topic/ph ifx-d/ifx-hex ph ifx-hex">2E</span>
+                           </span>
+                           <span class="- topic/ph ph constantText">60.4mA (GDRV_RNG = 0), 96.5mA (GDRV_RNG = 1)</span>
+                        </p>
+                        <p class="- topic/p p">
+                           <span class="- topic/ph ph constantValue" id="id_IFX_SP_TLE9186_140_generic_Register_IOFF_LS1_6542__TLE9186_8153">
+                              <span class="+ topic/ph ifx-d/ifx-hex ph ifx-hex">2F</span>
+                           </span>
+                           <span class="- topic/ph ph constantText">62.6mA (GDRV_RNG = 0), 99.7mA (GDRV_RNG = 1)</span>
+                        </p>
+                        <p class="- topic/p p">
+                           <span class="- topic/ph ph constantValue" id="id_IFX_SP_TLE9186_140_generic_Register_IOFF_LS1_6542__TLE9186_8154">
+                              <span class="+ topic/ph ifx-d/ifx-hex ph ifx-hex">30</span>
+                           </span>
+                           <span class="- topic/ph ph constantText">65mA (GDRV_RNG = 0), 102.9mA (GDRV_RNG = 1)</span>
+                        </p>
+                        <p class="- topic/p p">
+                           <span class="- topic/ph ph constantValue" id="id_IFX_SP_TLE9186_140_generic_Register_IOFF_LS1_6542__TLE9186_8155">
+                              <span class="+ topic/ph ifx-d/ifx-hex ph ifx-hex">31</span>
+                           </span>
+                           <span class="- topic/ph ph constantText">67.3mA (GDRV_RNG = 0), 106mA (GDRV_RNG = 1)</span>
+                        </p>
+                        <p class="- topic/p p">
+                           <span class="- topic/ph ph constantValue" id="id_IFX_SP_TLE9186_140_generic_Register_IOFF_LS1_6542__TLE9186_8156">
+                              <span class="+ topic/ph ifx-d/ifx-hex ph ifx-hex">32</span>
+                           </span>
+                           <span class="- topic/ph ph constantText">69.6mA (GDRV_RNG = 0), 109.5mA (GDRV_RNG = 1)</span>
+                        </p>
+                        <p class="- topic/p p">
+                           <span class="- topic/ph ph constantValue" id="id_IFX_SP_TLE9186_140_generic_Register_IOFF_LS1_6542__TLE9186_8157">
+                              <span class="+ topic/ph ifx-d/ifx-hex ph ifx-hex">33</span>
+                           </span>
+                           <span class="- topic/ph ph constantText">72mA (GDRV_RNG = 0), 112.6mA (GDRV_RNG = 1)</span>
+                        </p>
+                        <p class="- topic/p p">
+                           <span class="- topic/ph ph constantValue" id="id_IFX_SP_TLE9186_140_generic_Register_IOFF_LS1_6542__TLE9186_8158">
+                              <span class="+ topic/ph ifx-d/ifx-hex ph ifx-hex">34</span>
+                           </span>
+                           <span class="- topic/ph ph constantText">74.3mA (GDRV_RNG = 0), 115.7mA (GDRV_RNG = 1)</span>
+                        </p>
+                        <p class="- topic/p p">
+                           <span class="- topic/ph ph constantValue" id="id_IFX_SP_TLE9186_140_generic_Register_IOFF_LS1_6542__TLE9186_8159">
+                              <span class="+ topic/ph ifx-d/ifx-hex ph ifx-hex">35</span>
+                           </span>
+                           <span class="- topic/ph ph constantText">76.7mA (GDRV_RNG = 0), 119mA (GDRV_RNG = 1)</span>
+                        </p>
+                        <p class="- topic/p p">
+                           <span class="- topic/ph ph constantValue" id="id_IFX_SP_TLE9186_140_generic_Register_IOFF_LS1_6542__TLE9186_8160">
+                              <span class="+ topic/ph ifx-d/ifx-hex ph ifx-hex">36</span>
+                           </span>
+                           <span class="- topic/ph ph constantText">79.1mA (GDRV_RNG = 0), 122.4mA (GDRV_RNG = 1)</span>
+                        </p>
+                        <p class="- topic/p p">
+                           <span class="- topic/ph ph constantValue" id="id_IFX_SP_TLE9186_140_generic_Register_IOFF_LS1_6542__TLE9186_8161">
+                              <span class="+ topic/ph ifx-d/ifx-hex ph ifx-hex">37</span>
+                           </span>
+                           <span class="- topic/ph ph constantText">81.5mA (GDRV_RNG = 0), 125.8mA (GDRV_RNG = 1)</span>
+                        </p>
+                        <p class="- topic/p p">
+                           <span class="- topic/ph ph constantValue" id="id_IFX_SP_TLE9186_140_generic_Register_IOFF_LS1_6542__TLE9186_8162">
+                              <span class="+ topic/ph ifx-d/ifx-hex ph ifx-hex">38</span>
+                           </span>
+                           <span class="- topic/ph ph constantText">83.9mA (GDRV_RNG = 0), 129.1mA (GDRV_RNG = 1)</span>
+                        </p>
+                        <p class="- topic/p p">
+                           <span class="- topic/ph ph constantValue" id="id_IFX_SP_TLE9186_140_generic_Register_IOFF_LS1_6542__TLE9186_8163">
+                              <span class="+ topic/ph ifx-d/ifx-hex ph ifx-hex">39</span>
+                           </span>
+                           <span class="- topic/ph ph constantText">86.4mA (GDRV_RNG = 0), 132.4mA (GDRV_RNG = 1)</span>
+                        </p>
+                        <p class="- topic/p p">
+                           <span class="- topic/ph ph constantValue" id="id_IFX_SP_TLE9186_140_generic_Register_IOFF_LS1_6542__TLE9186_8164">
+                              <span class="+ topic/ph ifx-d/ifx-hex ph ifx-hex">3A</span>
+                           </span>
+                           <span class="- topic/ph ph constantText">88.9mA (GDRV_RNG = 0), 135.7mA (GDRV_RNG = 1)</span>
+                        </p>
+                        <p class="- topic/p p">
+                           <span class="- topic/ph ph constantValue" id="id_IFX_SP_TLE9186_140_generic_Register_IOFF_LS1_6542__TLE9186_8165">
+                              <span class="+ topic/ph ifx-d/ifx-hex ph ifx-hex">3B</span>
+                           </span>
+                           <span class="- topic/ph ph constantText">91.4mA (GDRV_RNG = 0), 139mA (GDRV_RNG = 1)</span>
+                        </p>
+                        <p class="- topic/p p">
+                           <span class="- topic/ph ph constantValue" id="id_IFX_SP_TLE9186_140_generic_Register_IOFF_LS1_6542__TLE9186_8166">
+                              <span class="+ topic/ph ifx-d/ifx-hex ph ifx-hex">3C</span>
+                           </span>
+                           <span class="- topic/ph ph constantText">93.9mA (GDRV_RNG = 0), 142.4mA (GDRV_RNG = 1)</span>
+                        </p>
+                        <p class="- topic/p p">
+                           <span class="- topic/ph ph constantValue" id="id_IFX_SP_TLE9186_140_generic_Register_IOFF_LS1_6542__TLE9186_8167">
+                              <span class="+ topic/ph ifx-d/ifx-hex ph ifx-hex">3D</span>
+                           </span>
+                           <span class="- topic/ph ph constantText">96.4mA (GDRV_RNG = 0), 145.8mA (GDRV_RNG = 1)</span>
+                        </p>
+                        <p class="- topic/p p">
+                           <span class="- topic/ph ph constantValue" id="id_IFX_SP_TLE9186_140_generic_Register_IOFF_LS1_6542__TLE9186_8168">
+                              <span class="+ topic/ph ifx-d/ifx-hex ph ifx-hex">3E</span>
+                           </span>
+                           <span class="- topic/ph ph constantText">99mA (GDRV_RNG = 0), 149.2mA (GDRV_RNG = 1)</span>
+                        </p>
+                        <p class="- topic/p p">
+                           <span class="- topic/ph ph constantValue" id="id_IFX_SP_TLE9186_140_generic_Register_IOFF_LS1_6542__TLE9186_8169">
+                              <span class="+ topic/ph ifx-d/ifx-hex ph ifx-hex">3F</span>
+                           </span>
+                           <span class="- topic/ph ph constantText">101.5mA (GDRV_RNG = 0), 152.6mA (GDRV_RNG = 1)</span>
+                        </p>
+                     </td>
+                  </tr>
+                  <tr class="- topic/row" id="id_IFX_SP_TLE9186_140_generic_Register_IOFF_LS1_6542__d680e1867">
+                     <td class="- topic/entry entry colsep-1 rowsep-1" headers="id_IFX_SP_TLE9186_140_generic_Register_IOFF_LS1_6542__d680e244__entry__1">
+                        <span class="- topic/ph ph" id="id_IFX_SP_TLE9186_140_generic_Register_IOFF_LS1_6542__TLE9186_IOFF_LS1.IOFF_LS_BNK_6551">
+                           <span class="- topic/ph ph" id="id_IFX_SP_TLE9186_140_generic_Register_IOFF_LS1_6542__IOFF_LS_BNK">IOFF_LS_BNK</span>
+                        </span>
+                     </td>
+                     <td class="- topic/entry entry colsep-1 rowsep-1" headers="id_IFX_SP_TLE9186_140_generic_Register_IOFF_LS1_6542__d680e244__entry__2">15:14</td>
+                     <td class="- topic/entry entry colsep-1 rowsep-1" headers="id_IFX_SP_TLE9186_140_generic_Register_IOFF_LS1_6542__d680e244__entry__3">rw</td>
+                     <td class="- topic/entry entry colsep-0 rowsep-1" headers="id_IFX_SP_TLE9186_140_generic_Register_IOFF_LS1_6542__d680e244__entry__4">
+                        <p class="- topic/p p FieldTitle">Banking configuration of I1OFF, I2OFF LS discharge current</p>
+                        <p class="- topic/p p">
+                           <span class="- topic/ph ph constantValue" id="id_IFX_SP_TLE9186_140_generic_Register_IOFF_LS1_6542__TLE9186_6555">
+                              <span class="+ topic/ph ifx-d/ifx-bin ph ifx-bin">00</span>
+                           </span>
+                           <span class="- topic/ph ph constantText">I1OFF_LS1 pre-discharge current settings applied for all 3x LS MOSFET gate drivers ,  I2OFF_LS1 discharge current setting applied only for all 3x LS MOSFET gate drivers (Default)</span>
+                        </p>
+                        <p class="- topic/p p">
+                           <span class="- topic/ph ph constantValue" id="id_IFX_SP_TLE9186_140_generic_Register_IOFF_LS1_6542__TLE9186_6554">
+                              <span class="+ topic/ph ifx-d/ifx-bin ph ifx-bin">01</span>
+                           </span>
+                           <span class="- topic/ph ph constantText">reserved</span>
+                        </p>
+                        <p class="- topic/p p">
+                           <span class="- topic/ph ph constantValue" id="id_IFX_SP_TLE9186_140_generic_Register_IOFF_LS1_6542__TLE9186_6553">
+                              <span class="+ topic/ph ifx-d/ifx-bin ph ifx-bin">10</span>
+                           </span>
+                           <span class="- topic/ph ph constantText">reserved</span>
+                        </p>
+                        <p class="- topic/p p">
+                           <span class="- topic/ph ph constantValue" id="id_IFX_SP_TLE9186_140_generic_Register_IOFF_LS1_6542__TLE9186_6552">
+                              <span class="+ topic/ph ifx-d/ifx-bin ph ifx-bin">11</span>
+                           </span>
+                           <span class="- topic/ph ph constantText">I1OFF_LS1 pre-discharge current setting applied only for LS1 MOSFET gate driver ,  I2OFF_LS1 discharge current setting applied only for LS1 MOSFET gate driver</span>
+                        </p>
+                     </td>
+                  </tr>
+                  <tr class="- topic/row" id="id_IFX_SP_TLE9186_140_generic_Register_IOFF_LS1_6542__d680e1939">
+                     <td class="- topic/entry entry colsep-1 rowsep-0" headers="id_IFX_SP_TLE9186_140_generic_Register_IOFF_LS1_6542__d680e244__entry__1">
+                        <span class="- topic/ph ph">0</span>
+                     </td>
+                     <td class="- topic/entry entry colsep-1 rowsep-0" headers="id_IFX_SP_TLE9186_140_generic_Register_IOFF_LS1_6542__d680e244__entry__2">7:6</td>
+                     <td class="- topic/entry entry colsep-1 rowsep-0" headers="id_IFX_SP_TLE9186_140_generic_Register_IOFF_LS1_6542__d680e244__entry__3">res</td>
+                     <td class="- topic/entry entry colsep-0 rowsep-0" headers="id_IFX_SP_TLE9186_140_generic_Register_IOFF_LS1_6542__d680e244__entry__4">
+                        <p class="- topic/p p FieldTitle">Reserved</p>
+                        <p class="- topic/p p">Read as 0; shall be written with 0.</p>
+                     </td>
+                  </tr>
+               </tbody></table></div>
+      </section>
+   </div>
+   
+</article></main></div>
+                        
+                        
+                        <div class=" wh_related_links d-print-none "><nav aria-label="Related Links" role="navigation" class="- topic/related-links related-links"><div class="linklist"><div class="familylinks related_link"><div class="parentlink"><strong>Parent topic:</strong> <a class="- topic/link link navheader_parent_path" href="pyd1707810723834.html" title="SPI register specification includes nominal values. For settings options and exact values of timings, currents or thresholds refer to the device datasheet for further information.">SPI register specification</a></div></div></div></nav></div>
+                        
+                        
+                        
+                    </div>
+                    
+                </div>
+            </div>
+            
+            
+            
+        </div> 
+        <footer class="navbar navbar-default wh_footer">
+  <div xmlns="" class="ifx-footer"><div class="ifx-flex-container"><span><span class="copyright_info">© 2026 Infineon Technologies AG</span><span class="doctype"></span></span><span class="important-notice"><a href="trademarks.html">Please read the Important Notice at the end of this document</a></span><span id="security-level" class="security-level-public"></span><span class="document-version-date"><span>1.11</span><span>2026-09-03</span></span></div></div>
+</footer>
+        
+        <div id="go2top" class="d-print-none">
+            <span class="oxy-icon oxy-icon-up"></span>
+        </div>
+        
+        <div id="modal_img_large" class="modal">
+            <span class="close oxy-icon oxy-icon-remove"></span>
+            <div id="modal_img_container"></div>
+            <div id="caption"></div>
+        </div>
+        
+        
+        
+    </body>
+</html>
